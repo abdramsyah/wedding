@@ -11,7 +11,7 @@
     }
   </style>
   <style>
-    img:is([sizes="auto"i], [sizes^="auto,"i]) {
+    img:is([sizes="auto" i], [sizes^="auto," i]) {
       contain-intrinsic-size: 3000px 1500px
     }
   </style>
@@ -20,7 +20,7 @@
   <title>Tri &amp; Ilham - zeyainvitation</title>
   <link rel="canonical" href="https://zeyainvitation.com/triilham/" />
   <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
-  
+
   <meta property="og:locale" content="id_ID" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Tri &amp; Ilham - zeyainvitation" />
@@ -1125,11 +1125,14 @@
             </div>
             <style>
               .shadow-container {
-               .shadow-container {
+                .shadow-container {
                   display: block;
-                  margin: 20px auto; /* Menempatkan gambar di tengah */
-                  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Efek bayangan */
-                  border-radius: 8px; /* Sudut membulat untuk gambar */
+                  margin: 20px auto;
+                  /* Menempatkan gambar di tengah */
+                  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+                  /* Efek bayangan */
+                  border-radius: 8px;
+                  /* Sudut membulat untuk gambar */
                   overflow: hidden;
                 }
               }
@@ -1208,24 +1211,23 @@
                       <div class="wdp-text" style="width: auto !important; font-weight: bold; margin: 0 0 0 0;">Kpd Bpk/Ibu/Saudara/i</div>
                       <div class="wdp-name namatamu" style="width: auto !important;">Nama Tamu</div>
                       <div class="wdp-text" style="width: auto !important;">Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Berhadir Di Acara Pernikahan Kami.</div>
-                      
+
                       <div class="wdp-button-wrapper" id="wdp-button-wrapper">
-                          <button class="elementor-button">
-                              <span>
-                                        <img  src="https://img.icons8.com/ios-filled/50/FFFFFF/envelope-love-1.png" alt="envelope-love-1"
-                                        style=" 
+                        <button class="elementor-button">
+                          <span>
+                            <img src="https://img.icons8.com/ios-filled/50/FFFFFF/envelope-love-1.png" alt="envelope-love-1"
+                              style=" 
                                         width: 22px; /* Atur ukuran lebar */
                                          height: 22px;
                                           margin-right: 5px; /* Tambahkan ruang di sekitar gambar */
                                           padding-top: 0px; /* Tambahkan ruang di sekitar gambar */
                                           margin-top: 0px; /* Tambahkan ruang di sekitar gambar */
-                                        "
-                                    />
-                                </span>
-                                  Buka Undangan </button>
-                                </div>
-                                
-                                <div class="wdp-text" style="width: auto !important;">
+                                        " />
+                          </span>
+                          Buka Undangan </button>
+                      </div>
+
+                      <div class="wdp-text" style="width: auto !important;">
                         Mohon maaf apabila ada kesalahan penulisan nama/gelar </div>
 
 
@@ -1278,41 +1280,6 @@
                       }
                     }
                   });
-        // ++++++++++++++
-                  // document.addEventListener("DOMContentLoaded", function () {
-                  //   var audioElement = document.getElementById("song");
-  
-                  //   // Cek apakah elemen audio tersedia
-                  //   if (audioElement) {
-                  //     // Coba mainkan audio
-                  //     audioElement.play().catch(function (error) {
-                  //       console.log("Auto-play gagal karena kebijakan browser:", error);
-                  //     });
-                  //   }
-                  // });
-                  // ++++++++++++++
-                //    document.addEventListener("DOMContentLoaded", function () {
-                //   var audioElement = document.getElementById("song");
-
-                //   // Cek apakah elemen audio tersedia
-                //   if (audioElement) {
-                //     // Coba ambil posisi terakhir dari localStorage
-                //     var savedTime = localStorage.getItem("audioCurrentTime");
-                //     if (savedTime) {
-                //       audioElement.currentTime = parseFloat(savedTime);
-                //     }
-
-                //     // Mulai memutar audio
-                //     audioElement.play().catch(function (error) {
-                //       console.log("Auto-play gagal karena kebijakan browser:", error);
-                //     });
-
-                //     // Simpan waktu audio ke localStorage setiap detik
-                //     audioElement.addEventListener("timeupdate", function () {
-                //       localStorage.setItem("audioCurrentTime", audioElement.currentTime);
-                //     });
-                //   }
-                // });
                 </script>
                 <script>
                   // decode &amp; and \'
@@ -1386,21 +1353,20 @@
                 <img width="1066" height="1118" src="https://zeyainvitation.com/wp-content/uploads/jet-form-builder/123cd23096c3b39837d9360294a85690/2025/01/8FCC4A17-FCE7-455E-A8FF-CE6A8ECB43F9.webp" class="attachment-full size-full wp-image-18759" alt="" style="width: 300px; height: 300px; overflow: hidden;"/>
               </div> -->
               <div class="elementor-widget-container">
-                <img 
-                    width="1066" 
-                    height="1118" 
-                    src="https://zeyainvitation.com/wp-content/uploads/jet-form-builder/123cd23096c3b39837d9360294a85690/2025/01/8FCC4A17-FCE7-455E-A8FF-CE6A8ECB43F9.webp" 
-                    style="width: 65%; height: auto; transition: transform 0.5s ease; cursor: zoom-in; margin-bottom: 10px" 
-                    onmouseover="this.style.transform='scale(1.2)'" 
-                    onmouseout="this.style.transform='scale(1)'"
-                    alt="Zoomable Image"
-                />
-                </div>
+                <img
+                  width="1066"
+                  height="1118"
+                  src="https://zeyainvitation.com/wp-content/uploads/jet-form-builder/123cd23096c3b39837d9360294a85690/2025/01/8FCC4A17-FCE7-455E-A8FF-CE6A8ECB43F9.webp"
+                  style="width: 65%; height: auto; transition: transform 0.5s ease; cursor: zoom-in; margin-bottom: 10px"
+                  onmouseover="this.style.transform='scale(1.2)'"
+                  onmouseout="this.style.transform='scale(1)'"
+                  alt="Zoomable Image" />
+              </div>
 
             </div>
             <div class="elementor-element elementor-element-51aa83cc wdp-sticky-section--no elementor-invisible elementor-widget elementor-widget-heading" data-id="29786b04" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
               <div class="elementor-widget-container">
-                    <h2 class="elementor-heading-title elementor-size-default" style="color: #4B8DCB; font-size: 30px;">Tri Seltawika S.Tr Kom</h2>
+                <h2 class="elementor-heading-title elementor-size-default" style="color: #4B8DCB; font-size: 30px;">Tri Seltawika S.Tr Kom</h2>
               </div>
             </div>
             <div class="elementor-element elementor-element-e1667dc wdp-sticky-section--no elementor-widget elementor-widget-text-editor" data-id="e1667dc" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
@@ -1415,23 +1381,22 @@
             <div class="elementor-element elementor-element-04b3b1a wdp-sticky-section--no elementor-widget elementor-widget-image" data-id="04b3b1a" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeInLeft&quot;}" data-widget_type="image.default">
               <div class="elementor-widget-container">
                 <!-- <img width="1065" height="1159" src="https://zeyainvitation.com/wp-content/uploads/jet-form-builder/720ac28759854ea81df99d415cccb7c4/2025/01/83980D86-7982-48C0-B96E-5537D54E6AD4.webp" class="attachment-full size-full wp-image-18758" alt="" /> -->
-                 <img 
-                    width="1066" 
-                    height="1118" 
-                    src="https://zeyainvitation.com/wp-content/uploads/jet-form-builder/720ac28759854ea81df99d415cccb7c4/2025/01/83980D86-7982-48C0-B96E-5537D54E6AD4.webp" 
-                    style="width: 65%; height: auto; transition: transform 0.5s ease; cursor: zoom-in; margin-bottom: 10px;" 
-                    onmouseover="this.style.transform='scale(1.2)'" 
-                    onmouseout="this.style.transform='scale(1)'"
-                    alt="Zoomable Image"
-                />
+                <img
+                  width="1066"
+                  height="1118"
+                  src="https://zeyainvitation.com/wp-content/uploads/jet-form-builder/720ac28759854ea81df99d415cccb7c4/2025/01/83980D86-7982-48C0-B96E-5537D54E6AD4.webp"
+                  style="width: 65%; height: auto; transition: transform 0.5s ease; cursor: zoom-in; margin-bottom: 10px;"
+                  onmouseover="this.style.transform='scale(1.2)'"
+                  onmouseout="this.style.transform='scale(1)'"
+                  alt="Zoomable Image" />
               </div>
             </div>
 
             <!-- <div class="elementor-element elementor-element-04b3b1a wdp-sticky-section--no elementor-widget elementor-widget-image" data-id="04b3b1a" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeInLeft&quot;}" data-widget_type="image.default"> -->
-              <!-- <div class="elementor-widget-container">
+            <!-- <div class="elementor-widget-container">
                 <img width="1066" height="1118" src="https://zeyainvitation.com/wp-content/uploads/jet-form-builder/123cd23096c3b39837d9360294a85690/2025/01/8FCC4A17-FCE7-455E-A8FF-CE6A8ECB43F9.webp" class="attachment-full size-full wp-image-18759" alt="" style="width: 300px; height: 300px; overflow: hidden;"/>
               </div> -->
-              <!-- <div class="elementor-widget-container">
+            <!-- <div class="elementor-widget-container">
                 <img 
                     width="1066" 
                     height="1118" 
@@ -1473,16 +1438,19 @@
             </div>
             <style>
               .responsive-box {
-                  max-width: 80%; /* Default untuk smartphone */
-                  margin: 20px auto;
+                max-width: 80%;
+                /* Default untuk smartphone */
+                margin: 20px auto;
               }
 
-              @media (min-width: 768px) { /* Aturan untuk laptop */
-                  .responsive-box {
-                      max-width: 95%;
-                  }
+              @media (min-width: 768px) {
+
+                /* Aturan untuk laptop */
+                .responsive-box {
+                  max-width: 95%;
+                }
               }
-          </style>
+            </style>
             <div class="elementor-element elementor-element-a321c4b wdsdv-enabled--yes e-flex e-con-boxed e-con e-parent responsive-box" data-id="a321c4b" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}" style=" margin: 20px auto; background: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden; padding: 16px;">
               <div class="e-con-inner">
                 <div class="elementor-element elementor-element-9aa3fa9 wdp-sticky-section--no elementor-widget elementor-widget-heading" data-id="9aa3fa9" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
@@ -1496,22 +1464,25 @@
                       <li class="elementor-icon-list-item">
                         <span class="elementor-icon-list-icon">
                           <!-- <i aria-hidden="true" class="fas fa-calendar-alt"></i>  -->
-                           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 120.06" style="enable-background:new 0 0 122.88 120.06" xml:space="preserve"><g><path d="M69.66,4.05c0-2.23,2.2-4.05,4.94-4.05c2.74,0,4.94,1.81,4.94,4.05v17.72c0,2.23-2.2,4.05-4.94,4.05 c-2.74,0-4.94-1.81-4.94-4.05V4.05L69.66,4.05z M91.37,57.03c4.26,0,8.33,0.85,12.05,2.39c3.87,1.6,7.34,3.94,10.24,6.84 c2.9,2.9,5.24,6.38,6.84,10.23c1.54,3.72,2.39,7.79,2.39,12.05c0,4.26-0.85,8.33-2.39,12.05c-1.6,3.87-3.94,7.34-6.84,10.24 c-2.9,2.9-6.38,5.24-10.23,6.84c-3.72,1.54-7.79,2.39-12.05,2.39c-4.26,0-8.33-0.85-12.05-2.39c-3.87-1.6-7.34-3.94-10.24-6.84 c-2.9-2.9-5.24-6.38-6.84-10.24c-1.54-3.72-2.39-7.79-2.39-12.05c0-4.26,0.85-8.33,2.39-12.05c1.6-3.87,3.94-7.34,6.84-10.24 c2.9-2.9,6.38-5.24,10.23-6.84C83.04,57.88,87.1,57.03,91.37,57.03L91.37,57.03z M89.01,75.37c0-0.76,0.31-1.45,0.81-1.95l0,0l0,0 c0.5-0.5,1.19-0.81,1.96-0.81c0.77,0,1.46,0.31,1.96,0.81c0.5,0.5,0.81,1.19,0.81,1.96v14.74l11.02,6.54l0.09,0.06 c0.61,0.39,1.01,0.98,1.17,1.63c0.17,0.68,0.09,1.42-0.28,2.06l-0.02,0.03c-0.02,0.04-0.04,0.07-0.07,0.1 c-0.39,0.6-0.98,1-1.62,1.16c-0.68,0.17-1.42,0.09-2.06-0.28l-12.32-7.29c-0.43-0.23-0.79-0.58-1.05-0.99 c-0.26-0.42-0.41-0.91-0.41-1.43h0L89.01,75.37L89.01,75.37L89.01,75.37z M109.75,70.16c-2.4-2.4-5.26-4.33-8.43-5.64 c-3.06-1.27-6.42-1.96-9.95-1.96s-6.89,0.7-9.95,1.96c-3.17,1.31-6.03,3.24-8.43,5.64c-2.4,2.4-4.33,5.26-5.64,8.43 c-1.27,3.06-1.96,6.42-1.96,9.95c0,3.53,0.7,6.89,1.96,9.95c1.31,3.17,3.24,6.03,5.64,8.43c2.4,2.4,5.26,4.33,8.43,5.64 c3.06,1.27,6.42,1.96,9.95,1.96s6.89-0.7,9.95-1.96c3.17-1.31,6.03-3.24,8.43-5.64c4.71-4.71,7.61-11.2,7.61-18.38 c0-3.53-0.7-6.89-1.96-9.95C114.08,75.42,112.15,72.56,109.75,70.16L109.75,70.16z M13.45,57.36c-0.28,0-0.53-1.23-0.53-2.74 c0-1.51,0.22-2.73,0.53-2.73h13.48c0.28,0,0.53,1.23,0.53,2.73c0,1.51-0.22,2.74-0.53,2.74H13.45L13.45,57.36z M34.94,57.36 c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.73,0.53-2.73h13.48c0.28,0,0.53,1.23,0.53,2.73c0,1.51-0.22,2.74-0.53,2.74H34.94 L34.94,57.36z M56.43,57.36c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.73,0.53-2.73h13.48c0.28,0,0.53,1.22,0.53,2.72 c-1.35,0.84-2.65,1.76-3.89,2.75H56.43L56.43,57.36z M13.48,73.04c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.74,0.53-2.74h13.48 c0.28,0,0.53,1.23,0.53,2.74c0,1.51-0.22,2.74-0.53,2.74H13.48L13.48,73.04z M34.97,73.04c-0.28,0-0.53-1.23-0.53-2.74 c0-1.51,0.22-2.74,0.53-2.74h13.48c0.28,0,0.53,1.23,0.53,2.74c0,1.51-0.22,2.74-0.53,2.74H34.97L34.97,73.04z M13.51,88.73 c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.74,0.53-2.74h13.48c0.28,0,0.53,1.23,0.53,2.74c0,1.51-0.22,2.74-0.53,2.74H13.51 L13.51,88.73z M35,88.73c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.74,0.53-2.74h13.48c0.28,0,0.53,1.23,0.53,2.74 c0,1.51-0.22,2.74-0.53,2.74H35L35,88.73z M25.29,4.05c0-2.23,2.2-4.05,4.94-4.05c2.74,0,4.94,1.81,4.94,4.05v17.72 c0,2.23-2.21,4.05-4.94,4.05c-2.74,0-4.94-1.81-4.94-4.05V4.05L25.29,4.05z M5.44,38.74h94.08v-20.4c0-0.7-0.28-1.31-0.73-1.76 c-0.45-0.45-1.09-0.73-1.76-0.73h-9.02c-1.51,0-2.74-1.23-2.74-2.74c0-1.51,1.23-2.74,2.74-2.74h9.02c2.21,0,4.19,0.89,5.64,2.34 c1.45,1.45,2.34,3.43,2.34,5.64v32.39c-1.8-0.62-3.65-1.12-5.55-1.49v-5.06h0.06H5.44v52.83c0,0.7,0.28,1.31,0.73,1.76 c0.45,0.45,1.09,0.73,1.76,0.73h44.71c0.51,1.9,1.15,3.75,1.92,5.53H7.98c-2.2,0-4.19-0.89-5.64-2.34C0.89,101.26,0,99.28,0,97.07 V18.36c0-2.2,0.89-4.19,2.34-5.64c1.45-1.45,3.43-2.34,5.64-2.34h9.63c1.51,0,2.74,1.23,2.74,2.74c0,1.51-1.23,2.74-2.74,2.74H7.98 c-0.7,0-1.31,0.28-1.76,0.73c-0.45,0.45-0.73,1.09-0.73,1.76v20.4H5.44L5.44,38.74z M43.07,15.85c-1.51,0-2.74-1.23-2.74-2.74 c0-1.51,1.23-2.74,2.74-2.74h18.36c1.51,0,2.74,1.23,2.74,2.74c0,1.51-1.23,2.74-2.74,2.74H43.07L43.07,15.85z"></path></g></svg>
+                          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 120.06" style="enable-background:new 0 0 122.88 120.06" xml:space="preserve">
+                            <g>
+                              <path d="M69.66,4.05c0-2.23,2.2-4.05,4.94-4.05c2.74,0,4.94,1.81,4.94,4.05v17.72c0,2.23-2.2,4.05-4.94,4.05 c-2.74,0-4.94-1.81-4.94-4.05V4.05L69.66,4.05z M91.37,57.03c4.26,0,8.33,0.85,12.05,2.39c3.87,1.6,7.34,3.94,10.24,6.84 c2.9,2.9,5.24,6.38,6.84,10.23c1.54,3.72,2.39,7.79,2.39,12.05c0,4.26-0.85,8.33-2.39,12.05c-1.6,3.87-3.94,7.34-6.84,10.24 c-2.9,2.9-6.38,5.24-10.23,6.84c-3.72,1.54-7.79,2.39-12.05,2.39c-4.26,0-8.33-0.85-12.05-2.39c-3.87-1.6-7.34-3.94-10.24-6.84 c-2.9-2.9-5.24-6.38-6.84-10.24c-1.54-3.72-2.39-7.79-2.39-12.05c0-4.26,0.85-8.33,2.39-12.05c1.6-3.87,3.94-7.34,6.84-10.24 c2.9-2.9,6.38-5.24,10.23-6.84C83.04,57.88,87.1,57.03,91.37,57.03L91.37,57.03z M89.01,75.37c0-0.76,0.31-1.45,0.81-1.95l0,0l0,0 c0.5-0.5,1.19-0.81,1.96-0.81c0.77,0,1.46,0.31,1.96,0.81c0.5,0.5,0.81,1.19,0.81,1.96v14.74l11.02,6.54l0.09,0.06 c0.61,0.39,1.01,0.98,1.17,1.63c0.17,0.68,0.09,1.42-0.28,2.06l-0.02,0.03c-0.02,0.04-0.04,0.07-0.07,0.1 c-0.39,0.6-0.98,1-1.62,1.16c-0.68,0.17-1.42,0.09-2.06-0.28l-12.32-7.29c-0.43-0.23-0.79-0.58-1.05-0.99 c-0.26-0.42-0.41-0.91-0.41-1.43h0L89.01,75.37L89.01,75.37L89.01,75.37z M109.75,70.16c-2.4-2.4-5.26-4.33-8.43-5.64 c-3.06-1.27-6.42-1.96-9.95-1.96s-6.89,0.7-9.95,1.96c-3.17,1.31-6.03,3.24-8.43,5.64c-2.4,2.4-4.33,5.26-5.64,8.43 c-1.27,3.06-1.96,6.42-1.96,9.95c0,3.53,0.7,6.89,1.96,9.95c1.31,3.17,3.24,6.03,5.64,8.43c2.4,2.4,5.26,4.33,8.43,5.64 c3.06,1.27,6.42,1.96,9.95,1.96s6.89-0.7,9.95-1.96c3.17-1.31,6.03-3.24,8.43-5.64c4.71-4.71,7.61-11.2,7.61-18.38 c0-3.53-0.7-6.89-1.96-9.95C114.08,75.42,112.15,72.56,109.75,70.16L109.75,70.16z M13.45,57.36c-0.28,0-0.53-1.23-0.53-2.74 c0-1.51,0.22-2.73,0.53-2.73h13.48c0.28,0,0.53,1.23,0.53,2.73c0,1.51-0.22,2.74-0.53,2.74H13.45L13.45,57.36z M34.94,57.36 c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.73,0.53-2.73h13.48c0.28,0,0.53,1.23,0.53,2.73c0,1.51-0.22,2.74-0.53,2.74H34.94 L34.94,57.36z M56.43,57.36c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.73,0.53-2.73h13.48c0.28,0,0.53,1.22,0.53,2.72 c-1.35,0.84-2.65,1.76-3.89,2.75H56.43L56.43,57.36z M13.48,73.04c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.74,0.53-2.74h13.48 c0.28,0,0.53,1.23,0.53,2.74c0,1.51-0.22,2.74-0.53,2.74H13.48L13.48,73.04z M34.97,73.04c-0.28,0-0.53-1.23-0.53-2.74 c0-1.51,0.22-2.74,0.53-2.74h13.48c0.28,0,0.53,1.23,0.53,2.74c0,1.51-0.22,2.74-0.53,2.74H34.97L34.97,73.04z M13.51,88.73 c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.74,0.53-2.74h13.48c0.28,0,0.53,1.23,0.53,2.74c0,1.51-0.22,2.74-0.53,2.74H13.51 L13.51,88.73z M35,88.73c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.74,0.53-2.74h13.48c0.28,0,0.53,1.23,0.53,2.74 c0,1.51-0.22,2.74-0.53,2.74H35L35,88.73z M25.29,4.05c0-2.23,2.2-4.05,4.94-4.05c2.74,0,4.94,1.81,4.94,4.05v17.72 c0,2.23-2.21,4.05-4.94,4.05c-2.74,0-4.94-1.81-4.94-4.05V4.05L25.29,4.05z M5.44,38.74h94.08v-20.4c0-0.7-0.28-1.31-0.73-1.76 c-0.45-0.45-1.09-0.73-1.76-0.73h-9.02c-1.51,0-2.74-1.23-2.74-2.74c0-1.51,1.23-2.74,2.74-2.74h9.02c2.21,0,4.19,0.89,5.64,2.34 c1.45,1.45,2.34,3.43,2.34,5.64v32.39c-1.8-0.62-3.65-1.12-5.55-1.49v-5.06h0.06H5.44v52.83c0,0.7,0.28,1.31,0.73,1.76 c0.45,0.45,1.09,0.73,1.76,0.73h44.71c0.51,1.9,1.15,3.75,1.92,5.53H7.98c-2.2,0-4.19-0.89-5.64-2.34C0.89,101.26,0,99.28,0,97.07 V18.36c0-2.2,0.89-4.19,2.34-5.64c1.45-1.45,3.43-2.34,5.64-2.34h9.63c1.51,0,2.74,1.23,2.74,2.74c0,1.51-1.23,2.74-2.74,2.74H7.98 c-0.7,0-1.31,0.28-1.76,0.73c-0.45,0.45-0.73,1.09-0.73,1.76v20.4H5.44L5.44,38.74z M43.07,15.85c-1.51,0-2.74-1.23-2.74-2.74 c0-1.51,1.23-2.74,2.74-2.74h18.36c1.51,0,2.74,1.23,2.74,2.74c0,1.51-1.23,2.74-2.74,2.74H43.07L43.07,15.85z"></path>
+                            </g>
+                          </svg>
                         </span>
                         <span class="elementor-icon-list-text">Minggu, 09 Februari 2025</span>
                       </li>
                       <li class="elementor-icon-list-item">
                         <span class="elementor-icon-list-icon">
-                             <img src="icon/time.png" alt="Gedung Icon" class="icon-style" 
-                          style=" 
+                          <img src="icon/time.png" alt="Gedung Icon" class="icon-style"
+                            style=" 
                                         width: 22px; /* Atur ukuran lebar */
                                          height: 22px;
                                           margin-right: 5px; /* Tambahkan ruang di sekitar gambar */
                                           padding-top: 0px; /* Tambahkan ruang di sekitar gambar */
                                           margin-top: 0px; /* Tambahkan ruang di sekitar gambar */
                                         
-                                "
-                          />
+                                " />
                         </span>
                         <span class="elementor-icon-list-text">08.00 WIB s.d Selesai</span>
                       </li>
@@ -1520,18 +1491,18 @@
                 </div>
                 <div class="elementor-element elementor-element-2db5c7e wdp-sticky-section--no elementor-widget elementor-widget-text-editor" data-id="2db5c7e" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
                   <div class="elementor-widget-container" style="font-weight: bold;">
-                 
 
-                          <img  src="https://img.icons8.com/?size=100&id=7779&format=png&color=1A1A1A" alt="envelope-love-1"
-                                        style=" 
+
+                    <img src="https://img.icons8.com/?size=100&id=7779&format=png&color=1A1A1A" alt="envelope-love-1"
+                      style=" 
                                         width: 22px; /* Atur ukuran lebar */
                                          height: 22px;
                                           margin-right: 5px; /* Tambahkan ruang di sekitar gambar */
                                           padding-top: 0px; /* Tambahkan ruang di sekitar gambar */
                                           margin-top: 0px; /* Tambahkan ruang di sekitar gambar */
-                                        "
-                                    />
-                    Gedung AEKI Palembang </div>
+                                        " />
+                    Gedung AEKI Palembang
+                  </div>
                 </div>
                 <div class="elementor-element elementor-element-15d9e4f wdp-sticky-section--no elementor-widget elementor-widget-text-editor" data-id="15d9e4f" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
                   <div class="elementor-widget-container">
@@ -1565,25 +1536,28 @@
                       <li class="elementor-icon-list-item">
                         <span class="elementor-icon-list-icon">
                           <!-- <i aria-hidden="true" class="fas fa-calendar-alt"></i>  -->
-                           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 120.06" style="enable-background:new 0 0 122.88 120.06" xml:space="preserve"><g><path d="M69.66,4.05c0-2.23,2.2-4.05,4.94-4.05c2.74,0,4.94,1.81,4.94,4.05v17.72c0,2.23-2.2,4.05-4.94,4.05 c-2.74,0-4.94-1.81-4.94-4.05V4.05L69.66,4.05z M91.37,57.03c4.26,0,8.33,0.85,12.05,2.39c3.87,1.6,7.34,3.94,10.24,6.84 c2.9,2.9,5.24,6.38,6.84,10.23c1.54,3.72,2.39,7.79,2.39,12.05c0,4.26-0.85,8.33-2.39,12.05c-1.6,3.87-3.94,7.34-6.84,10.24 c-2.9,2.9-6.38,5.24-10.23,6.84c-3.72,1.54-7.79,2.39-12.05,2.39c-4.26,0-8.33-0.85-12.05-2.39c-3.87-1.6-7.34-3.94-10.24-6.84 c-2.9-2.9-5.24-6.38-6.84-10.24c-1.54-3.72-2.39-7.79-2.39-12.05c0-4.26,0.85-8.33,2.39-12.05c1.6-3.87,3.94-7.34,6.84-10.24 c2.9-2.9,6.38-5.24,10.23-6.84C83.04,57.88,87.1,57.03,91.37,57.03L91.37,57.03z M89.01,75.37c0-0.76,0.31-1.45,0.81-1.95l0,0l0,0 c0.5-0.5,1.19-0.81,1.96-0.81c0.77,0,1.46,0.31,1.96,0.81c0.5,0.5,0.81,1.19,0.81,1.96v14.74l11.02,6.54l0.09,0.06 c0.61,0.39,1.01,0.98,1.17,1.63c0.17,0.68,0.09,1.42-0.28,2.06l-0.02,0.03c-0.02,0.04-0.04,0.07-0.07,0.1 c-0.39,0.6-0.98,1-1.62,1.16c-0.68,0.17-1.42,0.09-2.06-0.28l-12.32-7.29c-0.43-0.23-0.79-0.58-1.05-0.99 c-0.26-0.42-0.41-0.91-0.41-1.43h0L89.01,75.37L89.01,75.37L89.01,75.37z M109.75,70.16c-2.4-2.4-5.26-4.33-8.43-5.64 c-3.06-1.27-6.42-1.96-9.95-1.96s-6.89,0.7-9.95,1.96c-3.17,1.31-6.03,3.24-8.43,5.64c-2.4,2.4-4.33,5.26-5.64,8.43 c-1.27,3.06-1.96,6.42-1.96,9.95c0,3.53,0.7,6.89,1.96,9.95c1.31,3.17,3.24,6.03,5.64,8.43c2.4,2.4,5.26,4.33,8.43,5.64 c3.06,1.27,6.42,1.96,9.95,1.96s6.89-0.7,9.95-1.96c3.17-1.31,6.03-3.24,8.43-5.64c4.71-4.71,7.61-11.2,7.61-18.38 c0-3.53-0.7-6.89-1.96-9.95C114.08,75.42,112.15,72.56,109.75,70.16L109.75,70.16z M13.45,57.36c-0.28,0-0.53-1.23-0.53-2.74 c0-1.51,0.22-2.73,0.53-2.73h13.48c0.28,0,0.53,1.23,0.53,2.73c0,1.51-0.22,2.74-0.53,2.74H13.45L13.45,57.36z M34.94,57.36 c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.73,0.53-2.73h13.48c0.28,0,0.53,1.23,0.53,2.73c0,1.51-0.22,2.74-0.53,2.74H34.94 L34.94,57.36z M56.43,57.36c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.73,0.53-2.73h13.48c0.28,0,0.53,1.22,0.53,2.72 c-1.35,0.84-2.65,1.76-3.89,2.75H56.43L56.43,57.36z M13.48,73.04c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.74,0.53-2.74h13.48 c0.28,0,0.53,1.23,0.53,2.74c0,1.51-0.22,2.74-0.53,2.74H13.48L13.48,73.04z M34.97,73.04c-0.28,0-0.53-1.23-0.53-2.74 c0-1.51,0.22-2.74,0.53-2.74h13.48c0.28,0,0.53,1.23,0.53,2.74c0,1.51-0.22,2.74-0.53,2.74H34.97L34.97,73.04z M13.51,88.73 c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.74,0.53-2.74h13.48c0.28,0,0.53,1.23,0.53,2.74c0,1.51-0.22,2.74-0.53,2.74H13.51 L13.51,88.73z M35,88.73c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.74,0.53-2.74h13.48c0.28,0,0.53,1.23,0.53,2.74 c0,1.51-0.22,2.74-0.53,2.74H35L35,88.73z M25.29,4.05c0-2.23,2.2-4.05,4.94-4.05c2.74,0,4.94,1.81,4.94,4.05v17.72 c0,2.23-2.21,4.05-4.94,4.05c-2.74,0-4.94-1.81-4.94-4.05V4.05L25.29,4.05z M5.44,38.74h94.08v-20.4c0-0.7-0.28-1.31-0.73-1.76 c-0.45-0.45-1.09-0.73-1.76-0.73h-9.02c-1.51,0-2.74-1.23-2.74-2.74c0-1.51,1.23-2.74,2.74-2.74h9.02c2.21,0,4.19,0.89,5.64,2.34 c1.45,1.45,2.34,3.43,2.34,5.64v32.39c-1.8-0.62-3.65-1.12-5.55-1.49v-5.06h0.06H5.44v52.83c0,0.7,0.28,1.31,0.73,1.76 c0.45,0.45,1.09,0.73,1.76,0.73h44.71c0.51,1.9,1.15,3.75,1.92,5.53H7.98c-2.2,0-4.19-0.89-5.64-2.34C0.89,101.26,0,99.28,0,97.07 V18.36c0-2.2,0.89-4.19,2.34-5.64c1.45-1.45,3.43-2.34,5.64-2.34h9.63c1.51,0,2.74,1.23,2.74,2.74c0,1.51-1.23,2.74-2.74,2.74H7.98 c-0.7,0-1.31,0.28-1.76,0.73c-0.45,0.45-0.73,1.09-0.73,1.76v20.4H5.44L5.44,38.74z M43.07,15.85c-1.51,0-2.74-1.23-2.74-2.74 c0-1.51,1.23-2.74,2.74-2.74h18.36c1.51,0,2.74,1.23,2.74,2.74c0,1.51-1.23,2.74-2.74,2.74H43.07L43.07,15.85z"></path></g></svg>
+                          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 120.06" style="enable-background:new 0 0 122.88 120.06" xml:space="preserve">
+                            <g>
+                              <path d="M69.66,4.05c0-2.23,2.2-4.05,4.94-4.05c2.74,0,4.94,1.81,4.94,4.05v17.72c0,2.23-2.2,4.05-4.94,4.05 c-2.74,0-4.94-1.81-4.94-4.05V4.05L69.66,4.05z M91.37,57.03c4.26,0,8.33,0.85,12.05,2.39c3.87,1.6,7.34,3.94,10.24,6.84 c2.9,2.9,5.24,6.38,6.84,10.23c1.54,3.72,2.39,7.79,2.39,12.05c0,4.26-0.85,8.33-2.39,12.05c-1.6,3.87-3.94,7.34-6.84,10.24 c-2.9,2.9-6.38,5.24-10.23,6.84c-3.72,1.54-7.79,2.39-12.05,2.39c-4.26,0-8.33-0.85-12.05-2.39c-3.87-1.6-7.34-3.94-10.24-6.84 c-2.9-2.9-5.24-6.38-6.84-10.24c-1.54-3.72-2.39-7.79-2.39-12.05c0-4.26,0.85-8.33,2.39-12.05c1.6-3.87,3.94-7.34,6.84-10.24 c2.9-2.9,6.38-5.24,10.23-6.84C83.04,57.88,87.1,57.03,91.37,57.03L91.37,57.03z M89.01,75.37c0-0.76,0.31-1.45,0.81-1.95l0,0l0,0 c0.5-0.5,1.19-0.81,1.96-0.81c0.77,0,1.46,0.31,1.96,0.81c0.5,0.5,0.81,1.19,0.81,1.96v14.74l11.02,6.54l0.09,0.06 c0.61,0.39,1.01,0.98,1.17,1.63c0.17,0.68,0.09,1.42-0.28,2.06l-0.02,0.03c-0.02,0.04-0.04,0.07-0.07,0.1 c-0.39,0.6-0.98,1-1.62,1.16c-0.68,0.17-1.42,0.09-2.06-0.28l-12.32-7.29c-0.43-0.23-0.79-0.58-1.05-0.99 c-0.26-0.42-0.41-0.91-0.41-1.43h0L89.01,75.37L89.01,75.37L89.01,75.37z M109.75,70.16c-2.4-2.4-5.26-4.33-8.43-5.64 c-3.06-1.27-6.42-1.96-9.95-1.96s-6.89,0.7-9.95,1.96c-3.17,1.31-6.03,3.24-8.43,5.64c-2.4,2.4-4.33,5.26-5.64,8.43 c-1.27,3.06-1.96,6.42-1.96,9.95c0,3.53,0.7,6.89,1.96,9.95c1.31,3.17,3.24,6.03,5.64,8.43c2.4,2.4,5.26,4.33,8.43,5.64 c3.06,1.27,6.42,1.96,9.95,1.96s6.89-0.7,9.95-1.96c3.17-1.31,6.03-3.24,8.43-5.64c4.71-4.71,7.61-11.2,7.61-18.38 c0-3.53-0.7-6.89-1.96-9.95C114.08,75.42,112.15,72.56,109.75,70.16L109.75,70.16z M13.45,57.36c-0.28,0-0.53-1.23-0.53-2.74 c0-1.51,0.22-2.73,0.53-2.73h13.48c0.28,0,0.53,1.23,0.53,2.73c0,1.51-0.22,2.74-0.53,2.74H13.45L13.45,57.36z M34.94,57.36 c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.73,0.53-2.73h13.48c0.28,0,0.53,1.23,0.53,2.73c0,1.51-0.22,2.74-0.53,2.74H34.94 L34.94,57.36z M56.43,57.36c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.73,0.53-2.73h13.48c0.28,0,0.53,1.22,0.53,2.72 c-1.35,0.84-2.65,1.76-3.89,2.75H56.43L56.43,57.36z M13.48,73.04c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.74,0.53-2.74h13.48 c0.28,0,0.53,1.23,0.53,2.74c0,1.51-0.22,2.74-0.53,2.74H13.48L13.48,73.04z M34.97,73.04c-0.28,0-0.53-1.23-0.53-2.74 c0-1.51,0.22-2.74,0.53-2.74h13.48c0.28,0,0.53,1.23,0.53,2.74c0,1.51-0.22,2.74-0.53,2.74H34.97L34.97,73.04z M13.51,88.73 c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.74,0.53-2.74h13.48c0.28,0,0.53,1.23,0.53,2.74c0,1.51-0.22,2.74-0.53,2.74H13.51 L13.51,88.73z M35,88.73c-0.28,0-0.53-1.23-0.53-2.74c0-1.51,0.22-2.74,0.53-2.74h13.48c0.28,0,0.53,1.23,0.53,2.74 c0,1.51-0.22,2.74-0.53,2.74H35L35,88.73z M25.29,4.05c0-2.23,2.2-4.05,4.94-4.05c2.74,0,4.94,1.81,4.94,4.05v17.72 c0,2.23-2.21,4.05-4.94,4.05c-2.74,0-4.94-1.81-4.94-4.05V4.05L25.29,4.05z M5.44,38.74h94.08v-20.4c0-0.7-0.28-1.31-0.73-1.76 c-0.45-0.45-1.09-0.73-1.76-0.73h-9.02c-1.51,0-2.74-1.23-2.74-2.74c0-1.51,1.23-2.74,2.74-2.74h9.02c2.21,0,4.19,0.89,5.64,2.34 c1.45,1.45,2.34,3.43,2.34,5.64v32.39c-1.8-0.62-3.65-1.12-5.55-1.49v-5.06h0.06H5.44v52.83c0,0.7,0.28,1.31,0.73,1.76 c0.45,0.45,1.09,0.73,1.76,0.73h44.71c0.51,1.9,1.15,3.75,1.92,5.53H7.98c-2.2,0-4.19-0.89-5.64-2.34C0.89,101.26,0,99.28,0,97.07 V18.36c0-2.2,0.89-4.19,2.34-5.64c1.45-1.45,3.43-2.34,5.64-2.34h9.63c1.51,0,2.74,1.23,2.74,2.74c0,1.51-1.23,2.74-2.74,2.74H7.98 c-0.7,0-1.31,0.28-1.76,0.73c-0.45,0.45-0.73,1.09-0.73,1.76v20.4H5.44L5.44,38.74z M43.07,15.85c-1.51,0-2.74-1.23-2.74-2.74 c0-1.51,1.23-2.74,2.74-2.74h18.36c1.51,0,2.74,1.23,2.74,2.74c0,1.51-1.23,2.74-2.74,2.74H43.07L43.07,15.85z"></path>
+                            </g>
+                          </svg>
                         </span>
-                          
+
                         <span class="elementor-icon-list-text">Minggu, 09 Februari 2025</span>
                       </li>
                       <li class="elementor-icon-list-item">
                         <span class="elementor-icon-list-icon">
                           <!-- <i aria-hidden="true" class="fas fa-clock"></i> -->
-                           <img src="icon/time.png" alt="Gedung Icon" class="icon-style" 
-                          style=" 
+                          <img src="icon/time.png" alt="Gedung Icon" class="icon-style"
+                            style=" 
                                         width: 22px; /* Atur ukuran lebar */
                                          height: 22px;
                                           margin-right: 5px; /* Tambahkan ruang di sekitar gambar */
                                           padding-top: 0px; /* Tambahkan ruang di sekitar gambar */
                                           margin-top: 0px; /* Tambahkan ruang di sekitar gambar */
                                         
-                                "
-                          />
-                         </span>
+                                " />
+                        </span>
                         <span class="elementor-icon-list-text">09.00 WIB s.d Selesai</span>
                       </li>
                     </ul>
@@ -1591,16 +1565,16 @@
                 </div>
                 <div class="elementor-element elementor-element-fd6f0f7 wdp-sticky-section--no elementor-widget elementor-widget-text-editor" data-id="fd6f0f7" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
                   <div class="elementor-widget-container" style="font-weight: bold;">
-                   <img  src="https://img.icons8.com/?size=100&id=7779&format=png&color=1A1A1A" alt="envelope-love-1"
-                                        style=" 
+                    <img src="https://img.icons8.com/?size=100&id=7779&format=png&color=1A1A1A" alt="envelope-love-1"
+                      style=" 
                                         width: 22px; /* Atur ukuran lebar */
                                          height: 22px;
                                           margin-right: 5px; /* Tambahkan ruang di sekitar gambar */
                                           padding-top: 0px; /* Tambahkan ruang di sekitar gambar */
                                           margin-top: 0px; /* Tambahkan ruang di sekitar gambar */
-                                        "
-                                    />
-                    Gedung AEKI Palembang </div>
+                                        " />
+                    Gedung AEKI Palembang
+                  </div>
                 </div>
                 <div class="elementor-element elementor-element-2864a5c wdp-sticky-section--no elementor-widget elementor-widget-text-editor" data-id="2864a5c" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
                   <div class="elementor-widget-container">
@@ -1705,80 +1679,150 @@
             <div class="timeline-card">
               <h3 class="timeline-card-title">Awal Bertemu</h3>
               <p class="timeline-card-date">20 Maret 2020</p>
-              <p class="timeline-card-description">Pertama kali bertemu di salah satu ormawa dan berteman baik. 
-                 lalu lanjut berkomunikasi membahas terkait tugas akhir kampus dan semakin intens. 
-                Namun seiring berjalannya Waktu kita resmi menjalani komitmen satu sama lain untuk ke jenjang yang lebih serius di 03 Oktober 2021. 
+              <p class="timeline-card-description">Pertama kali bertemu di salah satu ormawa dan berteman baik.
+                lalu lanjut berkomunikasi membahas terkait tugas akhir kampus dan semakin intens.
+                Namun seiring berjalannya Waktu kita resmi menjalani komitmen satu sama lain untuk ke jenjang yang lebih serius di 03 Oktober 2021.
               </p>
             </div>
           </div>
-          
+
           <div class="timeline-image">
             <!-- <img src="https://placehold.co/600x400" alt="Judul 1" /> -->
-             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><defs><style>.cls-1{fill:#fd0;}.cls-2{fill:#40bdff;}.cls-3{fill:#2197f7;}.cls-4{fill:#effafe;}.cls-5{fill:#eb5639;}.cls-6{fill:#d84936;}.cls-7{fill:#228ed6;}.cls-8{fill:#efc803;}.cls-9{fill:#e4ebed;}.cls-10{fill:#263238;}</style></defs><title>graduate job seeker employee unemployee work</title><path class="cls-1" d="M52.16,226.93l21.69-4.34a2,2,0,0,1,2.05.84l12.34,18.35L95,213.2l-38.73,3.73Z"></path><path class="cls-1" d="M129.18,223.43a2,2,0,0,1,2.05-.84l21.69,4.34-4.12-10-43.73-3.73,11.77,28.58Z"></path><path class="cls-2" d="M128.89,123.64a2,2,0,0,1-1.79,0l-48-26.51v34.63c.58,2.74,2,26.81,48.91,26.81,46.63,0,53.3-24.07,53.91-26.82V97.12Z"></path><path class="cls-3" d="M176.92,99.62v32.13c-.6,2.7-7.05,25.95-51.42,26.79l2.51,0c46.63,0,53.3-24.07,53.91-26.82V97.12Z"></path><path class="cls-1" d="M100.21,208.76l19.34,1.65v-28l-19.34,1.65a1.92,1.92,0,0,1-.34,0l-19.34-1.65v28l19.34-1.65Z"></path><polygon class="cls-4" points="181.92 177.08 123.55 182.07 123.55 210.76 181.92 215.75 181.92 177.08"></polygon><path class="cls-5" d="M229.51,162.56a12.35,12.35,0,0,0-12.34,12.34v14.34a12.34,12.34,0,0,0,24.68,0V174.9A12.35,12.35,0,0,0,229.51,162.56Z"></path><path class="cls-6" d="M229.51,162.56a12.26,12.26,0,0,0-4,.68,12.35,12.35,0,0,1,8.34,11.66v14.34a12.35,12.35,0,0,1-8.34,11.66,12.31,12.31,0,0,0,16.34-11.66V174.9A12.35,12.35,0,0,0,229.51,162.56Z"></path><polygon class="cls-3" points="241.38 65.92 136 12.24 28.62 65.92 136 119.61 241.38 65.92"></polygon><polygon class="cls-7" points="136 12.24 128.43 16.02 226.38 65.92 128.43 115.83 136 119.61 241.38 65.92 136 12.24"></polygon><polygon class="cls-4" points="76.53 182.07 23.15 177.08 23.15 215.75 76.53 210.75 76.53 182.07"></polygon><polygon class="cls-8" points="114.55 182.84 114.55 209.99 119.55 210.41 119.55 182.41 114.55 182.84"></polygon><polygon class="cls-9" points="176.92 177.51 176.92 215.32 181.92 215.75 181.92 177.08 176.92 177.51"></polygon><polygon class="cls-9" points="23.15 177.08 23.15 177.55 71.53 182.07 71.53 210.75 23.15 215.28 23.15 215.75 76.53 210.75 76.53 182.07 23.15 177.08"></polygon><path class="cls-10" d="M15,68.16,69.58,95.43v36.45a2.51,2.51,0,0,0,0,.41c.21,1.26,5.73,30.77,58.39,30.77s58.18-29.51,58.39-30.77a2.51,2.51,0,0,0,0-.41V95.43L223,77.14v81.13a16.85,16.85,0,0,0-14.34,16.63v14.34a16.85,16.85,0,0,0,12.77,16.32L209,226.69a2.5,2.5,0,0,0,4.31,2.54L223,212.76V228a2.5,2.5,0,0,0,5,0v-15.2l9.68,16.46a2.5,2.5,0,0,0,4.31-2.54l-12.43-21.13a16.85,16.85,0,0,0,12.77-16.32V174.9A16.85,16.85,0,0,0,228,158.27V74.64l13-6.48a2.5,2.5,0,0,0,0-4.47L129.12,7.76a2.5,2.5,0,0,0-2.24,0L15,63.69A2.5,2.5,0,0,0,15,68.16Zm166.39,63.48c-.5,2.25-7,26.42-53.42,26.42-46.65,0-52.9-23.93-53.42-26.42V97.93l52.31,26.15a2.5,2.5,0,0,0,2.24,0l52.31-26.15Zm55.92,43.26v14.34a11.85,11.85,0,0,1-11.84,11.84h0a11.85,11.85,0,0,1-11.84-11.84V174.9a11.84,11.84,0,1,1,23.68,0ZM128,12.79,234.26,65.92,128,119.05,21.74,65.92Z"></path><path class="cls-10" d="M16.36,220.41,46,217.88l-4.45,10.79a2.5,2.5,0,0,0,2.8,3.4l23.72-4.75,13.5,20.07A2.5,2.5,0,0,0,86,247l13.86-33.67.2,0,.2,0L114.1,247a2.5,2.5,0,0,0,4.39.44L132,227.33l23.72,4.75a2.5,2.5,0,0,0,2.8-3.4l-4.45-10.79,29.65,2.53h.21a2.5,2.5,0,0,0,2.5-2.5v-43a2.5,2.5,0,0,0-2.71-2.49L100,179.56l-83.67-7.15a2.5,2.5,0,0,0-2.71,2.49v43A2.5,2.5,0,0,0,16.36,220.41Zm66.76,20.31L71.31,223.15a2.5,2.5,0,0,0-2.57-1.06L48,226.26l3.65-8.85,42.61-3.64Zm48.2-18.63a2.49,2.49,0,0,0-2.57,1.06l-11.82,17.57-11.1-27,42.61,3.64,3.65,8.85ZM124,182.53l57.38-4.9V215.2l-31-2.65h0L124,210.3ZM81,183l18.8,1.61a2.38,2.38,0,0,0,.43,0L119,183v26.91l-18.8-1.61h-.43L81,209.87Zm-62.38-5.33L76,182.53V210.3l-57.38,4.9Z"></path><path class="cls-1" d="M33,92.25H29v-4a1,1,0,0,0-2,0v4H23a1,1,0,1,0,0,2h4v4a1,1,0,0,0,2,0v-4h4a1,1,0,0,0,0-2Z"></path><path class="cls-1" d="M214.26,124.1h-4v-4a1,1,0,0,0-2,0v4h-4a1,1,0,0,0,0,2h4v4a1,1,0,0,0,2,0v-4h4a1,1,0,1,0,0-2Z"></path><path class="cls-2" d="M199,16.14h-4v-4a1,1,0,1,0-2,0v4h-4a1,1,0,0,0,0,2h4v4a1,1,0,0,0,2,0v-4h4a1,1,0,0,0,0-2Z"></path><path class="cls-2" d="M43,23.73a6,6,0,1,1,6-6A6,6,0,0,1,43,23.73Zm0-10a4,4,0,1,0,4,4A4,4,0,0,0,43,13.73Z"></path><path class="cls-1" d="M28,165.15a6,6,0,1,1,6-6A6,6,0,0,1,28,165.15Zm0-10a4,4,0,1,0,4,4A4,4,0,0,0,28,155.15Z"></path><path class="cls-1" d="M226,40a6,6,0,1,1,6-6A6,6,0,0,1,226,40Zm0-10a4,4,0,1,0,4,4A4,4,0,0,0,226,30Z"></path><path class="cls-2" d="M253.5,106.21h-2.59l1.83-1.83a1,1,0,0,0-1.41-1.41l-1.83,1.83v-2.59a1,1,0,1,0-2,0v2.59L245.67,103a1,1,0,0,0-1.41,1.41l1.83,1.83H243.5a1,1,0,0,0,0,2h2.59L244.26,110a1,1,0,0,0,1.41,1.41l1.83-1.83v2.59a1,1,0,0,0,2,0v-2.59l1.83,1.83a1,1,0,0,0,1.41-1.41l-1.83-1.83h2.59a1,1,0,0,0,0-2Z"></path><path class="cls-2" d="M193,232.5h-2.59l1.83-1.83a1,1,0,0,0-1.41-1.41L189,231.09V228.5a1,1,0,0,0-2,0v2.59l-1.83-1.83a1,1,0,0,0-1.41,1.41l1.83,1.83H183a1,1,0,0,0,0,2h2.59l-1.83,1.83a1,1,0,0,0,1.41,1.41l1.83-1.83v2.59a1,1,0,0,0,2,0v-2.59l1.83,1.83a1,1,0,0,0,1.41-1.41l-1.83-1.83H193a1,1,0,0,0,0-2Z"></path><path class="cls-2" d="M22.15,232.5H19.57l1.83-1.83A1,1,0,0,0,20,229.26l-1.83,1.83V228.5a1,1,0,0,0-2,0v2.59l-1.83-1.83a1,1,0,0,0-1.41,1.41l1.83,1.83H12.15a1,1,0,0,0,0,2h2.59l-1.83,1.83a1,1,0,0,0,1.41,1.41l1.83-1.83v2.59a1,1,0,0,0,2,0v-2.59L20,237.74a1,1,0,0,0,1.41-1.41l-1.83-1.83h2.59a1,1,0,1,0,0-2Z"></path></svg>
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #fd0;
+                  }
+
+                  .cls-2 {
+                    fill: #40bdff;
+                  }
+
+                  .cls-3 {
+                    fill: #2197f7;
+                  }
+
+                  .cls-4 {
+                    fill: #effafe;
+                  }
+
+                  .cls-5 {
+                    fill: #eb5639;
+                  }
+
+                  .cls-6 {
+                    fill: #d84936;
+                  }
+
+                  .cls-7 {
+                    fill: #228ed6;
+                  }
+
+                  .cls-8 {
+                    fill: #efc803;
+                  }
+
+                  .cls-9 {
+                    fill: #e4ebed;
+                  }
+
+                  .cls-10 {
+                    fill: #263238;
+                  }
+                </style>
+              </defs>
+              <title>graduate job seeker employee unemployee work</title>
+              <path class="cls-1" d="M52.16,226.93l21.69-4.34a2,2,0,0,1,2.05.84l12.34,18.35L95,213.2l-38.73,3.73Z"></path>
+              <path class="cls-1" d="M129.18,223.43a2,2,0,0,1,2.05-.84l21.69,4.34-4.12-10-43.73-3.73,11.77,28.58Z"></path>
+              <path class="cls-2" d="M128.89,123.64a2,2,0,0,1-1.79,0l-48-26.51v34.63c.58,2.74,2,26.81,48.91,26.81,46.63,0,53.3-24.07,53.91-26.82V97.12Z"></path>
+              <path class="cls-3" d="M176.92,99.62v32.13c-.6,2.7-7.05,25.95-51.42,26.79l2.51,0c46.63,0,53.3-24.07,53.91-26.82V97.12Z"></path>
+              <path class="cls-1" d="M100.21,208.76l19.34,1.65v-28l-19.34,1.65a1.92,1.92,0,0,1-.34,0l-19.34-1.65v28l19.34-1.65Z"></path>
+              <polygon class="cls-4" points="181.92 177.08 123.55 182.07 123.55 210.76 181.92 215.75 181.92 177.08"></polygon>
+              <path class="cls-5" d="M229.51,162.56a12.35,12.35,0,0,0-12.34,12.34v14.34a12.34,12.34,0,0,0,24.68,0V174.9A12.35,12.35,0,0,0,229.51,162.56Z"></path>
+              <path class="cls-6" d="M229.51,162.56a12.26,12.26,0,0,0-4,.68,12.35,12.35,0,0,1,8.34,11.66v14.34a12.35,12.35,0,0,1-8.34,11.66,12.31,12.31,0,0,0,16.34-11.66V174.9A12.35,12.35,0,0,0,229.51,162.56Z"></path>
+              <polygon class="cls-3" points="241.38 65.92 136 12.24 28.62 65.92 136 119.61 241.38 65.92"></polygon>
+              <polygon class="cls-7" points="136 12.24 128.43 16.02 226.38 65.92 128.43 115.83 136 119.61 241.38 65.92 136 12.24"></polygon>
+              <polygon class="cls-4" points="76.53 182.07 23.15 177.08 23.15 215.75 76.53 210.75 76.53 182.07"></polygon>
+              <polygon class="cls-8" points="114.55 182.84 114.55 209.99 119.55 210.41 119.55 182.41 114.55 182.84"></polygon>
+              <polygon class="cls-9" points="176.92 177.51 176.92 215.32 181.92 215.75 181.92 177.08 176.92 177.51"></polygon>
+              <polygon class="cls-9" points="23.15 177.08 23.15 177.55 71.53 182.07 71.53 210.75 23.15 215.28 23.15 215.75 76.53 210.75 76.53 182.07 23.15 177.08"></polygon>
+              <path class="cls-10" d="M15,68.16,69.58,95.43v36.45a2.51,2.51,0,0,0,0,.41c.21,1.26,5.73,30.77,58.39,30.77s58.18-29.51,58.39-30.77a2.51,2.51,0,0,0,0-.41V95.43L223,77.14v81.13a16.85,16.85,0,0,0-14.34,16.63v14.34a16.85,16.85,0,0,0,12.77,16.32L209,226.69a2.5,2.5,0,0,0,4.31,2.54L223,212.76V228a2.5,2.5,0,0,0,5,0v-15.2l9.68,16.46a2.5,2.5,0,0,0,4.31-2.54l-12.43-21.13a16.85,16.85,0,0,0,12.77-16.32V174.9A16.85,16.85,0,0,0,228,158.27V74.64l13-6.48a2.5,2.5,0,0,0,0-4.47L129.12,7.76a2.5,2.5,0,0,0-2.24,0L15,63.69A2.5,2.5,0,0,0,15,68.16Zm166.39,63.48c-.5,2.25-7,26.42-53.42,26.42-46.65,0-52.9-23.93-53.42-26.42V97.93l52.31,26.15a2.5,2.5,0,0,0,2.24,0l52.31-26.15Zm55.92,43.26v14.34a11.85,11.85,0,0,1-11.84,11.84h0a11.85,11.85,0,0,1-11.84-11.84V174.9a11.84,11.84,0,1,1,23.68,0ZM128,12.79,234.26,65.92,128,119.05,21.74,65.92Z"></path>
+              <path class="cls-10" d="M16.36,220.41,46,217.88l-4.45,10.79a2.5,2.5,0,0,0,2.8,3.4l23.72-4.75,13.5,20.07A2.5,2.5,0,0,0,86,247l13.86-33.67.2,0,.2,0L114.1,247a2.5,2.5,0,0,0,4.39.44L132,227.33l23.72,4.75a2.5,2.5,0,0,0,2.8-3.4l-4.45-10.79,29.65,2.53h.21a2.5,2.5,0,0,0,2.5-2.5v-43a2.5,2.5,0,0,0-2.71-2.49L100,179.56l-83.67-7.15a2.5,2.5,0,0,0-2.71,2.49v43A2.5,2.5,0,0,0,16.36,220.41Zm66.76,20.31L71.31,223.15a2.5,2.5,0,0,0-2.57-1.06L48,226.26l3.65-8.85,42.61-3.64Zm48.2-18.63a2.49,2.49,0,0,0-2.57,1.06l-11.82,17.57-11.1-27,42.61,3.64,3.65,8.85ZM124,182.53l57.38-4.9V215.2l-31-2.65h0L124,210.3ZM81,183l18.8,1.61a2.38,2.38,0,0,0,.43,0L119,183v26.91l-18.8-1.61h-.43L81,209.87Zm-62.38-5.33L76,182.53V210.3l-57.38,4.9Z"></path>
+              <path class="cls-1" d="M33,92.25H29v-4a1,1,0,0,0-2,0v4H23a1,1,0,1,0,0,2h4v4a1,1,0,0,0,2,0v-4h4a1,1,0,0,0,0-2Z"></path>
+              <path class="cls-1" d="M214.26,124.1h-4v-4a1,1,0,0,0-2,0v4h-4a1,1,0,0,0,0,2h4v4a1,1,0,0,0,2,0v-4h4a1,1,0,1,0,0-2Z"></path>
+              <path class="cls-2" d="M199,16.14h-4v-4a1,1,0,1,0-2,0v4h-4a1,1,0,0,0,0,2h4v4a1,1,0,0,0,2,0v-4h4a1,1,0,0,0,0-2Z"></path>
+              <path class="cls-2" d="M43,23.73a6,6,0,1,1,6-6A6,6,0,0,1,43,23.73Zm0-10a4,4,0,1,0,4,4A4,4,0,0,0,43,13.73Z"></path>
+              <path class="cls-1" d="M28,165.15a6,6,0,1,1,6-6A6,6,0,0,1,28,165.15Zm0-10a4,4,0,1,0,4,4A4,4,0,0,0,28,155.15Z"></path>
+              <path class="cls-1" d="M226,40a6,6,0,1,1,6-6A6,6,0,0,1,226,40Zm0-10a4,4,0,1,0,4,4A4,4,0,0,0,226,30Z"></path>
+              <path class="cls-2" d="M253.5,106.21h-2.59l1.83-1.83a1,1,0,0,0-1.41-1.41l-1.83,1.83v-2.59a1,1,0,1,0-2,0v2.59L245.67,103a1,1,0,0,0-1.41,1.41l1.83,1.83H243.5a1,1,0,0,0,0,2h2.59L244.26,110a1,1,0,0,0,1.41,1.41l1.83-1.83v2.59a1,1,0,0,0,2,0v-2.59l1.83,1.83a1,1,0,0,0,1.41-1.41l-1.83-1.83h2.59a1,1,0,0,0,0-2Z"></path>
+              <path class="cls-2" d="M193,232.5h-2.59l1.83-1.83a1,1,0,0,0-1.41-1.41L189,231.09V228.5a1,1,0,0,0-2,0v2.59l-1.83-1.83a1,1,0,0,0-1.41,1.41l1.83,1.83H183a1,1,0,0,0,0,2h2.59l-1.83,1.83a1,1,0,0,0,1.41,1.41l1.83-1.83v2.59a1,1,0,0,0,2,0v-2.59l1.83,1.83a1,1,0,0,0,1.41-1.41l-1.83-1.83H193a1,1,0,0,0,0-2Z"></path>
+              <path class="cls-2" d="M22.15,232.5H19.57l1.83-1.83A1,1,0,0,0,20,229.26l-1.83,1.83V228.5a1,1,0,0,0-2,0v2.59l-1.83-1.83a1,1,0,0,0-1.41,1.41l1.83,1.83H12.15a1,1,0,0,0,0,2h2.59l-1.83,1.83a1,1,0,0,0,1.41,1.41l1.83-1.83v2.59a1,1,0,0,0,2,0v-2.59L20,237.74a1,1,0,0,0,1.41-1.41l-1.83-1.83h2.59a1,1,0,1,0,0-2Z"></path>
+            </svg>
           </div>
         </div>
-        
+
         <div class="timeline-item right">
           <div class="timeline-content">
             <div class="timeline-card">
               <h3 class="timeline-card-title">Pertemuan Keluarga</h3>
               <p class="timeline-card-date">15 September 2024</p>
-              <p class="timeline-card-description">Setelah 3 tahun berjalan, akhirnya tiba hari dimana mempertemukan keluarga kami untuk meresmikan hubungan 
-dan membahasakan persiapan untuk menikah.
-</p>
+              <p class="timeline-card-description">Setelah 3 tahun berjalan, akhirnya tiba hari dimana mempertemukan keluarga kami untuk meresmikan hubungan
+                dan membahasakan persiapan untuk menikah.
+              </p>
             </div>
           </div>
-          
+
           <div class="timeline-image">
             <!-- <img src="https://placehold.co/600x400" alt="Judul 2" /> -->
-             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-<g id="XMLID_1407_">
-	<g id="XMLID_1408_">
-		<g id="XMLID_1409_">
-			<path id="XMLID_1410_" style="fill:#84B75B;" d="M504.5,437.798c0,10.26-1.96,20.06-5.51,29.05H352.06
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <g id="XMLID_1407_">
+                <g id="XMLID_1408_">
+                  <g id="XMLID_1409_">
+                    <path id="XMLID_1410_" style="fill:#84B75B;" d="M504.5,437.798c0,10.26-1.96,20.06-5.51,29.05H352.06
 				c-3.56-8.99-5.52-18.79-5.52-29.05c0-41.37,31.81-75.31,72.3-78.7c2.2-0.19,4.43-0.28,6.68-0.28
 				C469.14,358.818,504.5,394.178,504.5,437.798z"></path>
-			<path id="XMLID_1411_" style="fill:#69A833;" d="M461.03,447.998c0,6.45-0.96,12.77-2.86,18.85H352.06
+                    <path id="XMLID_1411_" style="fill:#69A833;" d="M461.03,447.998c0,6.45-0.96,12.77-2.86,18.85H352.06
 				c-3.56-8.99-5.52-18.79-5.52-29.05c0-41.37,31.81-75.31,72.3-78.7v29.27C443.39,397.068,461.03,420.508,461.03,447.998z"></path>
-		</g>
-		<g id="XMLID_1412_">
-			<path id="XMLID_1413_" style="fill:#A0D37D;" d="M159.945,466.845c3.558-8.991,5.514-18.791,5.514-29.048
+                  </g>
+                  <g id="XMLID_1412_">
+                    <path id="XMLID_1413_" style="fill:#A0D37D;" d="M159.945,466.845c3.558-8.991,5.514-18.791,5.514-29.048
 				c0-43.619-35.36-78.98-78.98-78.98c-43.619,0-78.98,35.36-78.98,78.98c0,10.257,1.956,20.057,5.514,29.048H159.945z"></path>
-		</g>
-		<g id="XMLID_1414_">
-			<polygon id="XMLID_1415_" style="fill:#EBEEF2;" points="406.842,195.668 406.842,466.843 86.482,466.843 86.482,195.668 
+                  </g>
+                  <g id="XMLID_1414_">
+                    <polygon id="XMLID_1415_" style="fill:#EBEEF2;" points="406.842,195.668 406.842,466.843 86.482,466.843 86.482,195.668 
 				246.662,51.852 			"></polygon>
-			<polygon id="XMLID_1416_" style="fill:#D3D8DF;" points="165.283,466.843 406.842,225.273 406.842,466.843 			"></polygon>
-			<g id="XMLID_1417_">
-				<g id="XMLID_1418_">
-					<path style="fill:#7FB7EA;" d="M363.619,310.012h-18.491c-5.673,0-10.273,4.599-10.273,10.273v87.338h39.036v-87.338
+                    <polygon id="XMLID_1416_" style="fill:#D3D8DF;" points="165.283,466.843 406.842,225.273 406.842,466.843 			"></polygon>
+                    <g id="XMLID_1417_">
+                      <g id="XMLID_1418_">
+                        <path style="fill:#7FB7EA;" d="M363.619,310.012h-18.491c-5.673,0-10.273,4.599-10.273,10.273v87.338h39.036v-87.338
 						C373.891,314.611,369.292,310.012,363.619,310.012z"></path>
-					<path id="XMLID_1419_" style="fill:#7FB7EA;" d="M158.469,407.622v-87.338c0-5.673-4.599-10.273-10.273-10.273h-18.491
+                        <path id="XMLID_1419_" style="fill:#7FB7EA;" d="M158.469,407.622v-87.338c0-5.673-4.599-10.273-10.273-10.273h-18.491
 						c-5.673,0-10.273,4.599-10.273,10.273v87.338"></path>
-				</g>
-			</g>
-			<rect x="86.48" y="407.622" style="fill:#5F9EEB;" width="320.365" height="59.222"></rect>
-			<rect id="XMLID_1420_" x="86.482" y="407.621" style="fill:#5F9EEB;" width="320.36" height="59.221"></rect>
-			<polygon id="XMLID_1421_" style="fill:#3A82D0;" points="406.842,407.621 406.842,466.843 165.283,466.843 224.504,407.621 			
+                      </g>
+                    </g>
+                    <rect x="86.48" y="407.622" style="fill:#5F9EEB;" width="320.365" height="59.222"></rect>
+                    <rect id="XMLID_1420_" x="86.482" y="407.621" style="fill:#5F9EEB;" width="320.36" height="59.221"></rect>
+                    <polygon id="XMLID_1421_" style="fill:#3A82D0;" points="406.842,407.621 406.842,466.843 165.283,466.843 224.504,407.621 			
 				"></polygon>
-			<path id="XMLID_1422_" style="fill:#7B8C98;" d="M296.864,320.284v146.559H196.46V320.284c0-5.673,4.599-10.273,10.273-10.273
+                    <path id="XMLID_1422_" style="fill:#7B8C98;" d="M296.864,320.284v146.559H196.46V320.284c0-5.673,4.599-10.273,10.273-10.273
 				h79.859C292.265,310.012,296.864,314.611,296.864,320.284z"></path>
-			<polygon id="XMLID_1423_" style="fill:#627687;" points="296.864,335.251 296.864,466.843 196.46,466.843 196.46,435.665 			"></polygon>
-			<g id="XMLID_1424_">
-				<path id="XMLID_1425_" style="fill:#5F9EEB;" d="M422.116,256.874L246.662,99.348L71.209,256.874
+                    <polygon id="XMLID_1423_" style="fill:#627687;" points="296.864,335.251 296.864,466.843 196.46,466.843 196.46,435.665 			"></polygon>
+                    <g id="XMLID_1424_">
+                      <path id="XMLID_1425_" style="fill:#5F9EEB;" d="M422.116,256.874L246.662,99.348L71.209,256.874
 					c-4.222,3.79-10.716,3.44-14.507-0.781l-17.156-19.109c-3.79-4.222-3.44-10.716,0.781-14.507L231.221,51.087
 					c8.784-7.887,22.098-7.887,30.882,0l190.895,171.389c4.222,3.79,4.571,10.285,0.781,14.507l-17.156,19.109
 					C432.832,260.314,426.337,260.664,422.116,256.874z"></path>
-			</g>
-			<circle style="fill:#EB5777;" cx="246.662" cy="228.503" r="41.046"></circle>
-		</g>
-		<g id="XMLID_1426_">
-			<path id="XMLID_1427_" style="fill:#A0D37D;" d="M445.454,466.845c2.309-5.834,3.578-12.193,3.578-18.848
+                    </g>
+                    <circle style="fill:#EB5777;" cx="246.662" cy="228.503" r="41.046"></circle>
+                  </g>
+                  <g id="XMLID_1426_">
+                    <path id="XMLID_1427_" style="fill:#A0D37D;" d="M445.454,466.845c2.309-5.834,3.578-12.193,3.578-18.848
 				c0-28.302-22.943-51.245-51.245-51.245c-28.302,0-51.245,22.943-51.245,51.245c0,6.655,1.269,13.014,3.578,18.848H445.454z"></path>
-		</g>
-	</g>
-	<g id="XMLID_1428_">
-		<path id="XMLID_1429_" d="M425.521,351.317c-3.742,0-7.478,0.267-11.176,0.745v-32.54c0-4.142-3.357-7.5-7.5-7.5
+                  </g>
+                </g>
+                <g id="XMLID_1428_">
+                  <path id="XMLID_1429_" d="M425.521,351.317c-3.742,0-7.478,0.267-11.176,0.745v-32.54c0-4.142-3.357-7.5-7.5-7.5
 			s-7.5,3.358-7.5,7.5v69.769c-0.52-0.014-1.036-0.04-1.559-0.04c-5.69,0-11.187,0.829-16.395,2.345v-71.313
 			c0-9.8-7.973-17.772-17.773-17.772h-18.49c-9.8,0-17.772,7.973-17.772,17.772v79.838h-22.991v-79.838
 			c0-9.8-7.973-17.772-17.772-17.772h-79.859c-9.8,0-17.772,7.973-17.772,17.772v79.838h-22.991v-79.838
@@ -1806,63 +1850,63 @@ dan membahasakan persiapan untuk menikah.
 			s43.745,19.624,43.745,43.746c0,3.871-0.497,7.67-1.483,11.348H406.845z M493.697,459.345H455.43
 			c0.728-3.715,1.101-7.506,1.101-11.348c0-26.643-17.834-49.185-42.187-56.354v-24.45c3.681-0.577,7.426-0.876,11.176-0.876
 			c39.414,0,71.479,32.065,71.479,71.479C497,445.179,495.891,452.406,493.697,459.345z"></path>
-		<path id="XMLID_1438_" d="M272.344,404.434c4.143,0,7.5-3.358,7.5-7.5v-8.507c0-4.142-3.357-7.5-7.5-7.5s-7.5,3.358-7.5,7.5v8.507
+                  <path id="XMLID_1438_" d="M272.344,404.434c4.143,0,7.5-3.358,7.5-7.5v-8.507c0-4.142-3.357-7.5-7.5-7.5s-7.5,3.358-7.5,7.5v8.507
 			C264.844,401.077,268.201,404.434,272.344,404.434z"></path>
-		<path id="XMLID_1439_" d="M198.116,228.503c0,26.769,21.777,48.546,48.546,48.546s48.546-21.778,48.546-48.546
+                  <path id="XMLID_1439_" d="M198.116,228.503c0,26.769,21.777,48.546,48.546,48.546s48.546-21.778,48.546-48.546
 			c0-26.768-21.777-48.546-48.546-48.546S198.116,201.735,198.116,228.503z M280.208,228.503c0,18.498-15.049,33.546-33.546,33.546
 			s-33.546-15.049-33.546-33.546c0-18.497,15.049-33.546,33.546-33.546S280.208,210.006,280.208,228.503z"></path>
-	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-</svg>
-              
+                </g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+            </svg>
+
           </div>
         </div>
-        
+
         <div class="timeline-item left">
           <div class="timeline-content">
             <div class="timeline-card">
               <h3 class="timeline-card-title">Acara Menikah
-</h3>
+              </h3>
               <p class="timeline-card-date">09 Februari 2025
-</p>
-              <p class="timeline-card-description">Kami berjanji untuk menyempurnakan agama dan melakukan ibadah terpanjang dengan melaksanakan acara akad 
-dan resepsi pernikahan.</p>
+              </p>
+              <p class="timeline-card-description">Kami berjanji untuk menyempurnakan agama dan melakukan ibadah terpanjang dengan melaksanakan acara akad
+                dan resepsi pernikahan.</p>
             </div>
           </div>
-          
+
           <div class="timeline-image">
             <!-- <img src="https://placehold.co/600x400" alt="Judul 3" /> -->
-             <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M19 57H3V61H19V57Z" fill="#95B2DB"></path>
               <path d="M17 53H5V57H17V53Z" fill="#7798BF"></path>
               <path d="M61 57H45V61H61V57Z" fill="#95B2DB"></path>
@@ -1884,7 +1928,7 @@ dan resepsi pernikahan.</p>
               <path d="M31.63 24.93C31.8676 25.0246 32.1324 25.0246 32.37 24.93C33 24.69 47 19 47 9.99995C46.9993 8.22664 46.4095 6.50381 45.3232 5.10219C44.2369 3.70056 42.7156 2.6996 40.9986 2.25659C39.2815 1.81359 37.4659 1.95364 35.837 2.65476C34.2082 3.35587 32.8585 4.5783 32 6.12995C31.1415 4.5783 29.7918 3.35587 28.163 2.65476C26.5341 1.95364 24.7185 1.81359 23.0014 2.25659C21.2844 2.6996 19.7631 3.70056 18.6768 5.10219C17.5905 6.50381 17.0007 8.22664 17 9.99995C17 19 31 24.69 31.63 24.93ZM25 3.99995C26.5913 3.99995 28.1174 4.63209 29.2426 5.75731C30.3679 6.88253 31 8.40865 31 9.99995C31 10.2652 31.1054 10.5195 31.2929 10.7071C31.4804 10.8946 31.7348 11 32 11C32.2652 11 32.5196 10.8946 32.7071 10.7071C32.8946 10.5195 33 10.2652 33 9.99995C33 8.40865 33.6321 6.88253 34.7574 5.75731C35.8826 4.63209 37.4087 3.99995 39 3.99995C40.5913 3.99995 42.1174 4.63209 43.2426 5.75731C44.3679 6.88253 45 8.40865 45 9.99995C45 16.9 34.16 22 32 22.91C29.84 22 19 16.91 19 9.99995C19 8.40865 19.6321 6.88253 20.7574 5.75731C21.8826 4.63209 23.4087 3.99995 25 3.99995V3.99995Z" fill="#2D485E"></path>
               <path d="M19.68 20.8999C17.8807 22.5735 16.4473 24.6013 15.4698 26.8558C14.4922 29.1103 13.9918 31.5427 14 33.9999V51.9999H12V33.9999C11.9911 31.2907 12.5386 28.6085 13.6085 26.1195C14.6784 23.6305 16.248 21.3876 18.22 19.5299C18.4063 19.3426 18.5108 19.0891 18.5108 18.8249C18.5108 18.5607 18.4063 18.3073 18.22 18.1199C18.127 18.0262 18.0164 17.9518 17.8946 17.901C17.7727 17.8503 17.642 17.8241 17.51 17.8241C17.378 17.8241 17.2473 17.8503 17.1254 17.901C17.0036 17.9518 16.893 18.0262 16.8 18.1199C14.6439 20.1635 12.9285 22.6264 11.7591 25.3573C10.5897 28.0881 9.99111 31.0293 10 33.9999V51.9999H8V33.9999C8.00682 30.6314 8.72267 27.302 10.101 24.2284C11.4793 21.1547 13.4892 18.4056 16 16.1599C16.1976 15.9822 16.3165 15.7333 16.3306 15.468C16.3446 15.2026 16.2527 14.9425 16.075 14.7449C15.8973 14.5473 15.6484 14.4284 15.383 14.4144C15.1177 14.4003 14.8576 14.4922 14.66 14.6699C11.9437 17.1061 9.76933 20.0856 8.27754 23.4154C6.78575 26.7452 6.00983 30.3512 6 33.9999V51.9999H5C4.73478 51.9999 4.48043 52.1053 4.29289 52.2928C4.10536 52.4804 4 52.7347 4 52.9999V55.9999H3C2.73478 55.9999 2.48043 56.1053 2.29289 56.2928C2.10536 56.4804 2 56.7347 2 56.9999V60.9999C2 61.2651 2.10536 61.5195 2.29289 61.707C2.48043 61.8946 2.73478 61.9999 3 61.9999C3.26522 61.9999 3.51957 61.8946 3.70711 61.707C3.89464 61.5195 4 61.2651 4 60.9999V57.9999H18V60.9999C18 61.2651 18.1054 61.5195 18.2929 61.707C18.4804 61.8946 18.7348 61.9999 19 61.9999C19.2652 61.9999 19.5196 61.8946 19.7071 61.707C19.8946 61.5195 20 61.2651 20 60.9999V56.9999C20 56.7347 19.8946 56.4804 19.7071 56.2928C19.5196 56.1053 19.2652 55.9999 19 55.9999H18V52.9999C18 52.7347 17.8946 52.4804 17.7071 52.2928C17.5196 52.1053 17.2652 51.9999 17 51.9999H16V33.9999C15.9922 31.8162 16.4369 29.6545 17.3061 27.6511C18.1752 25.6477 19.45 23.8462 21.05 22.3599C21.1437 22.267 21.2181 22.1564 21.2689 22.0345C21.3197 21.9126 21.3458 21.7819 21.3458 21.6499C21.3458 21.5179 21.3197 21.3872 21.2689 21.2653C21.2181 21.1435 21.1437 21.0329 21.05 20.9399C20.8697 20.76 20.6275 20.6557 20.3729 20.6483C20.1183 20.6409 19.8705 20.7309 19.68 20.8999V20.8999ZM6 55.9999V53.9999H16V55.9999H6Z" fill="#2D485E"></path>
               <path d="M41 44H23C22.7348 44 22.4804 44.1054 22.2929 44.2929C22.1054 44.4804 22 44.7348 22 45V49C22 49.2652 22.1054 49.5196 22.2929 49.7071C22.4804 49.8946 22.7348 50 23 50H27V61C27 61.2652 27.1054 61.5196 27.2929 61.7071C27.4804 61.8946 27.7348 62 28 62C28.2652 62 28.5196 61.8946 28.7071 61.7071C28.8946 61.5196 29 61.2652 29 61V50H31V61C31 61.2652 31.1054 61.5196 31.2929 61.7071C31.4804 61.8946 31.7348 62 32 62C32.2652 62 32.5196 61.8946 32.7071 61.7071C32.8946 61.5196 33 61.2652 33 61V50H35V61C35 61.2652 35.1054 61.5196 35.2929 61.7071C35.4804 61.8946 35.7348 62 36 62C36.2652 62 36.5196 61.8946 36.7071 61.7071C36.8946 61.5196 37 61.2652 37 61V50H41C41.2652 50 41.5196 49.8946 41.7071 49.7071C41.8946 49.5196 42 49.2652 42 49V45C42 44.7348 41.8946 44.4804 41.7071 44.2929C41.5196 44.1054 41.2652 44 41 44ZM40 48H24V46H40V48Z" fill="#2D485E"></path>
-              </svg>
+            </svg>
           </div>
         </div>
       </div>
@@ -2064,7 +2108,7 @@ dan resepsi pernikahan.</p>
 
                       <a href="?post_id=18745&comments=0&get=500&order=DESC" id="saic-link-18745" class="saic-link saic-icon-link saic-icon-link-true auto-load-true">
                         <!-- <i class="saico-comment"></i> -->
-                        <img src="icon/ucapan.png" alt="Gedung Icon" class="icon-style" 
+                        <img src="icon/ucapan.png" alt="Gedung Icon" class="icon-style"
                           style=" 
                           width: 20px; /* Atur ukuran lebar */
                                 height: 20px; /* Atur ukuran tinggi */
@@ -2072,9 +2116,8 @@ dan resepsi pernikahan.</p>
                                 display: inline-block; /* Supaya inline dengan elemen lain */
                                 vertical-align: middle; /* Untuk menyelaraskan dengan teks */
                                 transform: scale(1.1); /* Sedikit perbesar saat hover */
-                                transition: all 0.3s ease; /* Animasi halus */"
-                          />
-                         <!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><defs><style>.cls-1{fill:#3b4551;}.cls-2{fill:#2b77c0;}</style></defs><title>a</title><path class="cls-1" d="M112.97335,11.06168H15.02665c-7.454,0-13.99239,6.9757-13.99239,14.92612V84.28942c0,7.44484,6.01577,13.05865,13.99239,13.05865H61.35251l17.98582,18.20331a4.66276,4.66276,0,0,0,6.63636,0l17.987-18.20331h9.0117c7.97776,0,13.99239-5.61381,13.99239-13.05865V25.9878C126.96574,18.03738,120.42731,11.06168,112.97335,11.06168Zm4.66413,73.22773c0,2.75338-2.512,3.73039-4.66413,3.73039H102.0122A4.663,4.663,0,0,0,98.694,89.40675l-16.0375,16.23108L66.619,89.40675a4.66108,4.66108,0,0,0-3.31818-1.38694H15.02665c-2.15215,0-4.66413-.977-4.66413-3.73039V25.9878c0-2.77388,2.3537-5.59787,4.66413-5.59787h97.94671c2.30929,0,4.66413,2.824,4.66413,5.59787Z"></path><path class="cls-2" d="M89.65271,33.76515H38.34729a3.4981,3.4981,0,1,0,0,6.99619H89.65271a3.4981,3.4981,0,1,0,0-6.99619Z"></path><path class="cls-2" d="M89.65271,50.70678H38.34729a3.4981,3.4981,0,1,0,0,6.99619H89.65271a3.4981,3.4981,0,1,0,0-6.99619Z"></path><path class="cls-2" d="M89.65271,67.64841H38.34729a3.4981,3.4981,0,1,0,0,6.99619H89.65271a3.4981,3.4981,0,1,0,0-6.99619Z"></path></svg> -->
+                                transition: all 0.3s ease; /* Animasi halus */" />
+                        <!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><defs><style>.cls-1{fill:#3b4551;}.cls-2{fill:#2b77c0;}</style></defs><title>a</title><path class="cls-1" d="M112.97335,11.06168H15.02665c-7.454,0-13.99239,6.9757-13.99239,14.92612V84.28942c0,7.44484,6.01577,13.05865,13.99239,13.05865H61.35251l17.98582,18.20331a4.66276,4.66276,0,0,0,6.63636,0l17.987-18.20331h9.0117c7.97776,0,13.99239-5.61381,13.99239-13.05865V25.9878C126.96574,18.03738,120.42731,11.06168,112.97335,11.06168Zm4.66413,73.22773c0,2.75338-2.512,3.73039-4.66413,3.73039H102.0122A4.663,4.663,0,0,0,98.694,89.40675l-16.0375,16.23108L66.619,89.40675a4.66108,4.66108,0,0,0-3.31818-1.38694H15.02665c-2.15215,0-4.66413-.977-4.66413-3.73039V25.9878c0-2.77388,2.3537-5.59787,4.66413-5.59787h97.94671c2.30929,0,4.66413,2.824,4.66413,5.59787Z"></path><path class="cls-2" d="M89.65271,33.76515H38.34729a3.4981,3.4981,0,1,0,0,6.99619H89.65271a3.4981,3.4981,0,1,0,0-6.99619Z"></path><path class="cls-2" d="M89.65271,50.70678H38.34729a3.4981,3.4981,0,1,0,0,6.99619H89.65271a3.4981,3.4981,0,1,0,0-6.99619Z"></path><path class="cls-2" d="M89.65271,67.64841H38.34729a3.4981,3.4981,0,1,0,0,6.99619H89.65271a3.4981,3.4981,0,1,0,0-6.99619Z"></path></svg> -->
                         <span>10</span> Ucapan </a>
 
                     </div>
@@ -2149,7 +2192,8 @@ dan resepsi pernikahan.</p>
                                   <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
                                 </p>
                               </div>
-
+                              <div>
+                              </div>
                             </form>
 
                           </div>
@@ -2160,7 +2204,195 @@ dan resepsi pernikahan.</p>
 
                       <div id="saic-comment-status-18745" class="saic-comment-status"></div>
 
-                      <ul id="saic-container-comment-18745" class="saic-container-comments saic-order-DESC " data-order="DESC"></ul>
+                      <ul id="saic-container-comment-18745"
+                        class="saic-container-comments saic-order-DESC saic-has-4-comments saic-multiple-comments"
+                        data-order="DESC" style="display: block;">
+                        <li id="saic-item-comment-5426"
+                          class="comment even thread-even depth-1 saic-item-comment">
+
+                          <div id=" saic-comment-5426" class="saic-comment saic-clearfix">
+
+                            <div class="saic-comment-avatar">
+
+                              <img src="https://ui-avatars.com/api/?background=random&color=random&name=Testimoni"
+                                class="avatar avatar-28 photo" height="28" width="28" />
+
+                            </div>
+
+                            <div class="saic-comment-content">
+
+                              <div class="saic-comment-info">
+
+                                <span class="saic-commenter-name"
+                                  title="Testimoni">Testimoni</span>
+
+                                <span
+                                  class="saic-author-mark saic-post-author-notpresent"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" xml:space="preserve"
+                                    fill-rule="evenodd" stroke-linejoin="round"
+                                    stroke-miterlimit="2" clip-rule="evenodd"
+                                    viewBox="0 0 20 20">
+                                    <path fill="#d90a11"
+                                      d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.626c-.41-.006-.833-.012-1.089-.118-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.118-.762.012-1.626.025-2.227.626s-.614 1.465-.626 2.227c-.006.41-.012.833-.118 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.118 1.089.012.762.025 1.626.626 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968Zm-3.94-1.737a1 1 0 0 0-1.418 0L10 8.592 7.713 6.295a1.002 1.002 0 0 0-1.418 1.418L8.592 10l-2.297 2.287a.998.998 0 0 0 0 1.418 1 1 0 0 0 1.418 0L10 11.408l2.287 2.297a.998.998 0 0 0 1.418 0 1 1 0 0 0 0-1.418L11.408 10l2.297-2.287a.998.998 0 0 0 0-1.418Z" />
+                                  </svg></span>
+
+                              </div>
+
+                              <div class="saic-comment-text">
+
+                                <p>Maaf</p>
+
+                              </div>
+
+                              <div class="saic-comment-time">13 jam, 30 menit yang lalu
+                              </div>
+
+
+                            </div>
+
+                          </div>
+                        </li>
+
+                        <li id="saic-item-comment-5350"
+                          class="comment odd alt thread-odd thread-alt depth-1 saic-item-comment">
+
+                          <div id=" saic-comment-5350" class="saic-comment saic-clearfix">
+
+                            <div class="saic-comment-avatar">
+
+                              <img src="https://ui-avatars.com/api/?background=random&color=random&name=Anonim"
+                                class="avatar avatar-28 photo" height="28" width="28" />
+
+                            </div>
+
+                            <div class="saic-comment-content">
+
+                              <div class="saic-comment-info">
+
+                                <span class="saic-commenter-name"
+                                  title="Anonim">Anonim</span>
+
+                                <span
+                                  class="saic-author-mark saic-post-author-notpresent"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" xml:space="preserve"
+                                    fill-rule="evenodd" stroke-linejoin="round"
+                                    stroke-miterlimit="2" clip-rule="evenodd"
+                                    viewBox="0 0 20 20">
+                                    <path fill="#d90a11"
+                                      d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.626c-.41-.006-.833-.012-1.089-.118-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.118-.762.012-1.626.025-2.227.626s-.614 1.465-.626 2.227c-.006.41-.012.833-.118 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.118 1.089.012.762.025 1.626.626 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968Zm-3.94-1.737a1 1 0 0 0-1.418 0L10 8.592 7.713 6.295a1.002 1.002 0 0 0-1.418 1.418L8.592 10l-2.297 2.287a.998.998 0 0 0 0 1.418 1 1 0 0 0 1.418 0L10 11.408l2.287 2.297a.998.998 0 0 0 1.418 0 1 1 0 0 0 0-1.418L11.408 10l2.297-2.287a.998.998 0 0 0 0-1.418Z" />
+                                  </svg></span>
+
+                              </div>
+
+                              <div class="saic-comment-text">
+
+                                <p>Happy</p>
+
+                              </div>
+
+                              <div class="saic-comment-time">1 hari, 2 jam yang lalu</div>
+
+
+                            </div>
+
+                          </div>
+                        </li><!-- #comment-## -->
+
+                        <li id="saic-item-comment-5349"
+                          class="comment even thread-even depth-1 saic-item-comment">
+
+                          <div id=" saic-comment-5349" class="saic-comment saic-clearfix">
+
+                            <div class="saic-comment-avatar">
+
+                              <img src="https://ui-avatars.com/api/?background=random&color=random&name=Anonim"
+                                class="avatar avatar-28 photo" height="28" width="28" />
+
+                            </div>
+
+                            <div class="saic-comment-content">
+
+                              <div class="saic-comment-info">
+
+                                <span class="saic-commenter-name"
+                                  title="Anonim">Anonim</span>
+
+                                <span
+                                  class="saic-author-mark saic-post-author-present"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" xml:space="preserve"
+                                    fill-rule="evenodd" stroke-linejoin="round"
+                                    stroke-miterlimit="2" clip-rule="evenodd"
+                                    viewBox="0 0 20 20">
+                                    <path fill="#3d9a62"
+                                      d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.626c-.41-.006-.833-.012-1.089-.118-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.118-.762.012-1.626.025-2.227.626s-.614 1.465-.626 2.227c-.006.41-.012.833-.118 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.118 1.089.012.762.025 1.626.626 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968Zm-3.343-2.461a.882.882 0 0 0-1.222.256l-4.26 6.509-2.036-1.885a.885.885 0 0 0-1.2 1.297l2.815 2.604c.01.009.023.011.033.02.025.02.04.048.067.067.037.025.08.03.121.048a.86.86 0 0 0 .145.058.817.817 0 0 0 .147.023.883.883 0 0 0 .212-.003.89.89 0 0 0 .086-.02.887.887 0 0 0 .247-.103l.039-.028c.052-.036.108-.062.152-.11.031-.034.045-.078.071-.116l.003-.004 4.835-7.389a.89.89 0 0 0-.255-1.224Z" />
+                                  </svg></span>
+
+                              </div>
+
+                              <div class="saic-comment-text">
+
+                                <p>Happy wedding</p>
+
+                              </div>
+
+                              <div class="saic-comment-time">1 hari, 2 jam yang lalu</div>
+
+
+                            </div>
+
+                          </div>
+                        </li><!-- #comment-## -->
+
+                        <li id="saic-item-comment-5348"
+                          class="comment odd alt thread-odd thread-alt depth-1 saic-item-comment">
+
+                          <div id=" saic-comment-5348" class="saic-comment saic-clearfix">
+
+                            <div class="saic-comment-avatar">
+
+                              <img src="https://ui-avatars.com/api/?background=random&color=random&name=Anonim"
+                                class="avatar avatar-28 photo" height="28" width="28" />
+
+                            </div>
+
+                            <div class="saic-comment-content">
+
+                              <div class="saic-comment-info">
+
+                                <span class="saic-commenter-name"
+                                  title="Anonim">Anonim</span>
+
+                                <span
+                                  class="saic-author-mark saic-post-author-notpresent"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" xml:space="preserve"
+                                    fill-rule="evenodd" stroke-linejoin="round"
+                                    stroke-miterlimit="2" clip-rule="evenodd"
+                                    viewBox="0 0 20 20">
+                                    <path fill="#d90a11"
+                                      d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.626c-.41-.006-.833-.012-1.089-.118-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.118-.762.012-1.626.025-2.227.626s-.614 1.465-.626 2.227c-.006.41-.012.833-.118 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.118 1.089.012.762.025 1.626.626 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968Zm-3.94-1.737a1 1 0 0 0-1.418 0L10 8.592 7.713 6.295a1.002 1.002 0 0 0-1.418 1.418L8.592 10l-2.297 2.287a.998.998 0 0 0 0 1.418 1 1 0 0 0 1.418 0L10 11.408l2.287 2.297a.998.998 0 0 0 1.418 0 1 1 0 0 0 0-1.418L11.408 10l2.297-2.287a.998.998 0 0 0 0-1.418Z" />
+                                  </svg></span>
+
+                              </div>
+
+                              <div class="saic-comment-text">
+
+                                <p>Happy wedding</p>
+
+                              </div>
+
+                              <div class="saic-comment-time">1 hari, 2 jam yang lalu</div>
+
+
+                            </div>
+
+                          </div>
+                        </li><!-- #comment-## -->
+
+                      </ul>
 
                       <div class="saic-holder-18745 saic-holder"></div>
 
@@ -2210,7 +2442,7 @@ dan resepsi pernikahan.</p>
             <div class="elementor-widget-container">
               <div class="elementor-divider">
                 <span class="elementor-divider-separator">
-                  <span class="elementor-divider__text elementor-divider__element" >
+                  <span class="elementor-divider__text elementor-divider__element">
                     Tri &#038; Ilham</span>
                 </span>
               </div>
@@ -2280,13 +2512,13 @@ dan resepsi pernikahan.</p>
                   </audio>
                   <div class="elementor-icon-wrapper" id="unmute-sound" style="display: none;">
                     <div class="elementor-icon">
-                    <img src="https://img.icons8.com/?size=100&id=9976&format=png&color=1A1A1A" alt="fa-volume-mute"
-                    style=" 
+                      <img src="https://img.icons8.com/?size=100&id=9976&format=png&color=1A1A1A" alt="fa-volume-mute"
+                        style=" 
                                         width: 20px; /* Atur ukuran lebar */
                                           margin-bottom: 5px; /* Tambahkan ruang di sekitar gambar */
                                         ">
                     </div>
-                  </div> 
+                  </div>
                   <div class="elementor-icon-wrapper" id="mute-sound" style="display: none;">
                     <div class="elementor-icon">
                       <i class="fa fa-volume-up" aria-hidden="true"></i>
