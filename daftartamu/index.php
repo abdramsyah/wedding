@@ -1062,7 +1062,7 @@
                                     window.guestInvitationData = {
                                         key: 'guestBookStorage-unikKey', //ini harus unik bisa menggunakan user ID, slug atau lainya,
                                         template: "Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i [nama] untuk menghadiri acara kami.\n\n*Berikut link undangan kami*, untuk info lengkap dari acara bisa kunjungi :\n\n[link-undangan]\n\nMerupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu.\n\n*Mohon maaf perihal undangan hanya di bagikan melalui pesan ini.*\n\nTerima kasih banyak atas perhatiannya.",
-                                        invitationLink: "https://zeyainvitation.com/triilham/",
+                                        invitationLink: "https://the-wedding-of-tri-and-ilham.com",
                                         to: 'settingDear',
                                     }
                                 </script>
