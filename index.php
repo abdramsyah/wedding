@@ -1,3 +1,17 @@
+<?php
+// Konfigurasi database
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "invitation";
+
+// Membuat koneksi
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Periksa koneksi
+if ($conn->connect_error) {
+  die("Koneksi gagal: " . $conn->connect_error);
+} ?>
 <!doctype html>
 <html lang="id" prefix="og: https://ogp.me/ns#">
 
@@ -16,8 +30,8 @@
     }
   </style>
 
-  <!-- This site is optimized with the Yoast SEO plugin v23.9 - https://yoast.com/wordpress/plugins/seo/ -->
-  <title>Tri &amp; Ilham - zeyainvitation</title>
+
+  <title>Tri &amp; Ilham </title>
   <link rel="canonical" href="https://zeyainvitation.com/triilham/" />
   <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
 
@@ -2118,7 +2132,25 @@
                                 transform: scale(1.1); /* Sedikit perbesar saat hover */
                                 transition: all 0.3s ease; /* Animasi halus */" />
                         <!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><defs><style>.cls-1{fill:#3b4551;}.cls-2{fill:#2b77c0;}</style></defs><title>a</title><path class="cls-1" d="M112.97335,11.06168H15.02665c-7.454,0-13.99239,6.9757-13.99239,14.92612V84.28942c0,7.44484,6.01577,13.05865,13.99239,13.05865H61.35251l17.98582,18.20331a4.66276,4.66276,0,0,0,6.63636,0l17.987-18.20331h9.0117c7.97776,0,13.99239-5.61381,13.99239-13.05865V25.9878C126.96574,18.03738,120.42731,11.06168,112.97335,11.06168Zm4.66413,73.22773c0,2.75338-2.512,3.73039-4.66413,3.73039H102.0122A4.663,4.663,0,0,0,98.694,89.40675l-16.0375,16.23108L66.619,89.40675a4.66108,4.66108,0,0,0-3.31818-1.38694H15.02665c-2.15215,0-4.66413-.977-4.66413-3.73039V25.9878c0-2.77388,2.3537-5.59787,4.66413-5.59787h97.94671c2.30929,0,4.66413,2.824,4.66413,5.59787Z"></path><path class="cls-2" d="M89.65271,33.76515H38.34729a3.4981,3.4981,0,1,0,0,6.99619H89.65271a3.4981,3.4981,0,1,0,0-6.99619Z"></path><path class="cls-2" d="M89.65271,50.70678H38.34729a3.4981,3.4981,0,1,0,0,6.99619H89.65271a3.4981,3.4981,0,1,0,0-6.99619Z"></path><path class="cls-2" d="M89.65271,67.64841H38.34729a3.4981,3.4981,0,1,0,0,6.99619H89.65271a3.4981,3.4981,0,1,0,0-6.99619Z"></path></svg> -->
-                        <span>10</span> Ucapan </a>
+                        <?php
+                        $count_ucapan = "SELECT COUNT(*) AS total FROM user";
+
+                        // Eksekusi query
+                        $result = $conn->query($count_ucapan);
+
+                        // Validasi hasil query
+                        if ($result) {
+                          // Ambil hasil query
+                          $row = $result->fetch_assoc();
+                          $totalUcapan = $row['total'];
+                        } else {
+                          // Jika query gagal
+                          $totalUcapan = "0";
+                        }
+
+                        // Tampilkan hasil dengan aman
+                        ?>
+                        <span><?php echo htmlspecialchars($totalUcapan); ?></span> Ucapan </a>
 
                     </div>
 
@@ -2204,194 +2236,120 @@
 
                       <div id="saic-comment-status-18745" class="saic-comment-status"></div>
 
+
                       <ul id="saic-container-comment-18745"
                         class="saic-container-comments saic-order-DESC saic-has-4-comments saic-multiple-comments"
                         data-order="DESC" style="display: block;">
-                        <li id="saic-item-comment-5426"
-                          class="comment even thread-even depth-1 saic-item-comment">
 
-                          <div id=" saic-comment-5426" class="saic-comment saic-clearfix">
-
-                            <div class="saic-comment-avatar">
-
-                              <img src="https://ui-avatars.com/api/?background=random&color=random&name=Testimoni"
-                                class="avatar avatar-28 photo" height="28" width="28" />
-
-                            </div>
-
-                            <div class="saic-comment-content">
-
-                              <div class="saic-comment-info">
-
-                                <span class="saic-commenter-name"
-                                  title="Testimoni">Testimoni</span>
-
-                                <span
-                                  class="saic-author-mark saic-post-author-notpresent"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="16"
-                                    height="16" xml:space="preserve"
-                                    fill-rule="evenodd" stroke-linejoin="round"
-                                    stroke-miterlimit="2" clip-rule="evenodd"
-                                    viewBox="0 0 20 20">
-                                    <path fill="#d90a11"
-                                      d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.626c-.41-.006-.833-.012-1.089-.118-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.118-.762.012-1.626.025-2.227.626s-.614 1.465-.626 2.227c-.006.41-.012.833-.118 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.118 1.089.012.762.025 1.626.626 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968Zm-3.94-1.737a1 1 0 0 0-1.418 0L10 8.592 7.713 6.295a1.002 1.002 0 0 0-1.418 1.418L8.592 10l-2.297 2.287a.998.998 0 0 0 0 1.418 1 1 0 0 0 1.418 0L10 11.408l2.287 2.297a.998.998 0 0 0 1.418 0 1 1 0 0 0 0-1.418L11.408 10l2.297-2.287a.998.998 0 0 0 0-1.418Z" />
-                                  </svg></span>
-
-                              </div>
-
-                              <div class="saic-comment-text">
-
-                                <p>Maaf</p>
-
-                              </div>
-
-                              <div class="saic-comment-time">13 jam, 30 menit yang lalu
-                              </div>
-
-
-                            </div>
-
-                          </div>
-                        </li>
-
-                        <li id="saic-item-comment-5350"
-                          class="comment odd alt thread-odd thread-alt depth-1 saic-item-comment">
-
-                          <div id=" saic-comment-5350" class="saic-comment saic-clearfix">
-
-                            <div class="saic-comment-avatar">
-
-                              <img src="https://ui-avatars.com/api/?background=random&color=random&name=Anonim"
-                                class="avatar avatar-28 photo" height="28" width="28" />
-
-                            </div>
-
-                            <div class="saic-comment-content">
-
-                              <div class="saic-comment-info">
-
-                                <span class="saic-commenter-name"
-                                  title="Anonim">Anonim</span>
-
-                                <span
-                                  class="saic-author-mark saic-post-author-notpresent"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="16"
-                                    height="16" xml:space="preserve"
-                                    fill-rule="evenodd" stroke-linejoin="round"
-                                    stroke-miterlimit="2" clip-rule="evenodd"
-                                    viewBox="0 0 20 20">
-                                    <path fill="#d90a11"
-                                      d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.626c-.41-.006-.833-.012-1.089-.118-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.118-.762.012-1.626.025-2.227.626s-.614 1.465-.626 2.227c-.006.41-.012.833-.118 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.118 1.089.012.762.025 1.626.626 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968Zm-3.94-1.737a1 1 0 0 0-1.418 0L10 8.592 7.713 6.295a1.002 1.002 0 0 0-1.418 1.418L8.592 10l-2.297 2.287a.998.998 0 0 0 0 1.418 1 1 0 0 0 1.418 0L10 11.408l2.287 2.297a.998.998 0 0 0 1.418 0 1 1 0 0 0 0-1.418L11.408 10l2.297-2.287a.998.998 0 0 0 0-1.418Z" />
-                                  </svg></span>
-
-                              </div>
-
-                              <div class="saic-comment-text">
-
-                                <p>Happy</p>
-
-                              </div>
-
-                              <div class="saic-comment-time">1 hari, 2 jam yang lalu</div>
-
-
-                            </div>
-
-                          </div>
-                        </li><!-- #comment-## -->
-
-                        <li id="saic-item-comment-5349"
-                          class="comment even thread-even depth-1 saic-item-comment">
-
-                          <div id=" saic-comment-5349" class="saic-comment saic-clearfix">
-
-                            <div class="saic-comment-avatar">
-
-                              <img src="https://ui-avatars.com/api/?background=random&color=random&name=Anonim"
-                                class="avatar avatar-28 photo" height="28" width="28" />
-
-                            </div>
-
-                            <div class="saic-comment-content">
-
-                              <div class="saic-comment-info">
-
-                                <span class="saic-commenter-name"
-                                  title="Anonim">Anonim</span>
-
-                                <span
-                                  class="saic-author-mark saic-post-author-present"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="16"
-                                    height="16" xml:space="preserve"
-                                    fill-rule="evenodd" stroke-linejoin="round"
-                                    stroke-miterlimit="2" clip-rule="evenodd"
-                                    viewBox="0 0 20 20">
-                                    <path fill="#3d9a62"
-                                      d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.626c-.41-.006-.833-.012-1.089-.118-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.118-.762.012-1.626.025-2.227.626s-.614 1.465-.626 2.227c-.006.41-.012.833-.118 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.118 1.089.012.762.025 1.626.626 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968Zm-3.343-2.461a.882.882 0 0 0-1.222.256l-4.26 6.509-2.036-1.885a.885.885 0 0 0-1.2 1.297l2.815 2.604c.01.009.023.011.033.02.025.02.04.048.067.067.037.025.08.03.121.048a.86.86 0 0 0 .145.058.817.817 0 0 0 .147.023.883.883 0 0 0 .212-.003.89.89 0 0 0 .086-.02.887.887 0 0 0 .247-.103l.039-.028c.052-.036.108-.062.152-.11.031-.034.045-.078.071-.116l.003-.004 4.835-7.389a.89.89 0 0 0-.255-1.224Z" />
-                                  </svg></span>
-
-                              </div>
-
-                              <div class="saic-comment-text">
-
-                                <p>Happy wedding</p>
-
-                              </div>
-
-                              <div class="saic-comment-time">1 hari, 2 jam yang lalu</div>
-
-
-                            </div>
-
-                          </div>
-                        </li><!-- #comment-## -->
-
-                        <li id="saic-item-comment-5348"
-                          class="comment odd alt thread-odd thread-alt depth-1 saic-item-comment">
-
-                          <div id=" saic-comment-5348" class="saic-comment saic-clearfix">
-
-                            <div class="saic-comment-avatar">
-
-                              <img src="https://ui-avatars.com/api/?background=random&color=random&name=Anonim"
-                                class="avatar avatar-28 photo" height="28" width="28" />
-
-                            </div>
-
-                            <div class="saic-comment-content">
-
-                              <div class="saic-comment-info">
-
-                                <span class="saic-commenter-name"
-                                  title="Anonim">Anonim</span>
-
-                                <span
-                                  class="saic-author-mark saic-post-author-notpresent"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="16"
-                                    height="16" xml:space="preserve"
-                                    fill-rule="evenodd" stroke-linejoin="round"
-                                    stroke-miterlimit="2" clip-rule="evenodd"
-                                    viewBox="0 0 20 20">
-                                    <path fill="#d90a11"
-                                      d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.626c-.41-.006-.833-.012-1.089-.118-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.118-.762.012-1.626.025-2.227.626s-.614 1.465-.626 2.227c-.006.41-.012.833-.118 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.118 1.089.012.762.025 1.626.626 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968Zm-3.94-1.737a1 1 0 0 0-1.418 0L10 8.592 7.713 6.295a1.002 1.002 0 0 0-1.418 1.418L8.592 10l-2.297 2.287a.998.998 0 0 0 0 1.418 1 1 0 0 0 1.418 0L10 11.408l2.287 2.297a.998.998 0 0 0 1.418 0 1 1 0 0 0 0-1.418L11.408 10l2.297-2.287a.998.998 0 0 0 0-1.418Z" />
-                                  </svg></span>
-
-                              </div>
-
-                              <div class="saic-comment-text">
-
-                                <p>Happy wedding</p>
-
-                              </div>
-
-                              <div class="saic-comment-time">1 hari, 2 jam yang lalu</div>
-
-
-                            </div>
-
-                          </div>
-                        </li><!-- #comment-## -->
-
+                        <?php
+
+
+                        // Query untuk mengambil data dari tabel user
+                        $query = "SELECT * FROM user";
+                        $result = $conn->query($query);
+
+                        // Periksa apakah query berhasil
+                        if ($result === false) {
+                          echo "Error pada query: " . $conn->error;
+                        } else {
+
+                          // Periksa apakah ada data
+                          if ($result->num_rows > 0) {
+                            // Iterasi data dan tampilkan
+                            while ($row = $result->fetch_assoc()) {
+                        ?>
+
+                              <li id="saic-item-comment-5426"
+                                class="comment even thread-even depth-1 saic-item-comment">
+
+                                <div id=" saic-comment-5426" class="saic-comment saic-clearfix">
+
+                                  <div class="saic-comment-avatar">
+
+                                    <img src="https://ui-avatars.com/api/?background=random&color=random&name=<?php echo urlencode($row['nama_user']); ?>"
+                                      class="avatar avatar-28 photo" height="28" width="28" />
+
+                                  </div>
+
+                                  <div class="saic-comment-content">
+
+                                    <div class="saic-comment-info">
+
+                                      <span class="saic-commenter-name"
+                                        title="Testimoni">Testimoni this</span>
+
+                                      <!-- HADIR -->
+                                      <!-- <span class="saic-author-mark saic-post-author-present"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 20 20">
+                                          <path fill="#3d9a62" d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.626c-.41-.006-.833-.012-1.089-.118-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.118-.762.012-1.626.025-2.227.626s-.614 1.465-.626 2.227c-.006.41-.012.833-.118 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.118 1.089.012.762.025 1.626.626 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968Zm-3.343-2.461a.882.882 0 0 0-1.222.256l-4.26 6.509-2.036-1.885a.885.885 0 0 0-1.2 1.297l2.815 2.604c.01.009.023.011.033.02.025.02.04.048.067.067.037.025.08.03.121.048a.86.86 0 0 0 .145.058.817.817 0 0 0 .147.023.883.883 0 0 0 .212-.003.89.89 0 0 0 .086-.02.887.887 0 0 0 .247-.103l.039-.028c.052-.036.108-.062.152-.11.031-.034.045-.078.071-.116l.003-.004 4.835-7.389a.89.89 0 0 0-.255-1.224Z" />
+                                        </svg></span> -->
+
+                                      <!-- TIDAK HADIR -->
+                                      <!-- <span class="saic-author-mark saic-post-author-notpresent"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 20 20">
+                                          <path fill="#d90a11" d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.626c-.41-.006-.833-.012-1.089-.118-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.118-.762.012-1.626.025-2.227.626s-.614 1.465-.626 2.227c-.006.41-.012.833-.118 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.118 1.089.012.762.025 1.626.626 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968Zm-3.94-1.737a1 1 0 0 0-1.418 0L10 8.592 7.713 6.295a1.002 1.002 0 0 0-1.418 1.418L8.592 10l-2.297 2.287a.998.998 0 0 0 0 1.418 1 1 0 0 0 1.418 0L10 11.408l2.287 2.297a.998.998 0 0 0 1.418 0 1 1 0 0 0 0-1.418L11.408 10l2.297-2.287a.998.998 0 0 0 0-1.418Z" />
+                                        </svg></span> -->
+
+                                      <!-- RAGU - RAGU -->
+                                      <!-- <span class="saic-author-mark saic-post-author-notsure"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 20 20">
+                                          <path fill="#ffda73" d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.625c-.41-.007-.833-.013-1.089-.119-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.119-.762.011-1.626.024-2.227.625s-.614 1.465-.625 2.227c-.007.41-.013.833-.119 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.119 1.089.011.762.024 1.626.625 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968ZM10 15a.942.942 0 0 1-.937-.937c0-.515.423-.938.937-.938s.938.423.938.938A.942.942 0 0 1 10 15Zm.625-3.82v.07a.628.628 0 0 1-.625.625.628.628 0 0 1-.625-.625v-.625c0-.342.282-.625.625-.625a1.57 1.57 0 0 0 1.562-1.562A1.57 1.57 0 0 0 10 6.875c-.857 0-1.563.706-1.563 1.563a.628.628 0 0 1-.625.625.628.628 0 0 1-.625-.625A2.826 2.826 0 0 1 10 5.626a2.825 2.825 0 0 1 2.812 2.812 2.82 2.82 0 0 1-2.187 2.742Z" />
+                                        </svg></span> -->
+                                      <?php
+                                      // Daftar status kehadiran
+                                      $attendanceStatus = [
+                                        'hadir' => [
+                                          'label' => 'hadir',
+                                          'icon'  => '<span class="saic-author-mark saic-post-author-present"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 20 20">
+                                          <path fill="#3d9a62" d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.626c-.41-.006-.833-.012-1.089-.118-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.118-.762.012-1.626.025-2.227.626s-.614 1.465-.626 2.227c-.006.41-.012.833-.118 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.118 1.089.012.762.025 1.626.626 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968Zm-3.343-2.461a.882.882 0 0 0-1.222.256l-4.26 6.509-2.036-1.885a.885.885 0 0 0-1.2 1.297l2.815 2.604c.01.009.023.011.033.02.025.02.04.048.067.067.037.025.08.03.121.048a.86.86 0 0 0 .145.058.817.817 0 0 0 .147.023.883.883 0 0 0 .212-.003.89.89 0 0 0 .086-.02.887.887 0 0 0 .247-.103l.039-.028c.052-.036.108-.062.152-.11.031-.034.045-.078.071-.116l.003-.004 4.835-7.389a.89.89 0 0 0-.255-1.224Z" />
+                                        </svg></span>'
+                                        ],
+                                        'tidak hadir' => [
+                                          'label' => 'tidak hadir',
+                                          'icon'  => '<span class="saic-author-mark saic-post-author-notpresent"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 20 20">
+                                          <path fill="#d90a11" d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.626c-.41-.006-.833-.012-1.089-.118-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.118-.762.012-1.626.025-2.227.626s-.614 1.465-.626 2.227c-.006.41-.012.833-.118 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.118 1.089.012.762.025 1.626.626 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968Zm-3.94-1.737a1 1 0 0 0-1.418 0L10 8.592 7.713 6.295a1.002 1.002 0 0 0-1.418 1.418L8.592 10l-2.297 2.287a.998.998 0 0 0 0 1.418 1 1 0 0 0 1.418 0L10 11.408l2.287 2.297a.998.998 0 0 0 1.418 0 1 1 0 0 0 0-1.418L11.408 10l2.297-2.287a.998.998 0 0 0 0-1.418Z" />
+                                        </svg></span'
+                                        ],
+                                        'masih ragu' => [
+                                          'label' => 'masih ragu',
+                                          'icon'  => '<span class="saic-author-mark saic-post-author-notsure"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 20 20">
+                                          <path fill="#ffda73" d="M17.645 8.032c-.294-.307-.599-.625-.714-.903-.106-.256-.112-.679-.118-1.089-.012-.762-.025-1.626-.626-2.227s-1.465-.614-2.227-.625c-.41-.007-.833-.013-1.089-.119-.278-.115-.596-.42-.903-.714-.54-.518-1.152-1.105-1.968-1.105-.816 0-1.428.587-1.968 1.105-.307.294-.625.599-.903.714-.256.106-.679.112-1.089.119-.762.011-1.626.024-2.227.625s-.614 1.465-.625 2.227c-.007.41-.013.833-.119 1.089-.115.278-.42.596-.714.903C1.837 8.572 1.25 9.184 1.25 10c0 .816.587 1.428 1.105 1.968.294.307.599.625.714.903.106.256.112.679.119 1.089.011.762.024 1.626.625 2.227s1.465.614 2.227.626c.41.006.833.012 1.089.118.278.115.596.42.903.714.54.518 1.152 1.105 1.968 1.105.816 0 1.428-.587 1.968-1.105.307-.294.625-.599.903-.714.256-.106.679-.112 1.089-.118.762-.012 1.626-.025 2.227-.626s.614-1.465.626-2.227c.006-.41.012-.833.118-1.089.115-.278.42-.596.714-.903.518-.54 1.105-1.152 1.105-1.968 0-.816-.587-1.428-1.105-1.968ZM10 15a.942.942 0 0 1-.937-.937c0-.515.423-.938.937-.938s.938.423.938.938A.942.942 0 0 1 10 15Zm.625-3.82v.07a.628.628 0 0 1-.625.625.628.628 0 0 1-.625-.625v-.625c0-.342.282-.625.625-.625a1.57 1.57 0 0 0 1.562-1.562A1.57 1.57 0 0 0 10 6.875c-.857 0-1.563.706-1.563 1.563a.628.628 0 0 1-.625.625.628.628 0 0 1-.625-.625A2.826 2.826 0 0 1 10 5.626a2.825 2.825 0 0 1 2.812 2.812 2.82 2.82 0 0 1-2.187 2.742Z" />
+                                        </svg></span>'
+                                        ]
+                                      ];
+
+                                      // Pilihan status saat ini
+                                      $currentStatus = $row['status']; // Bisa diubah sesuai input 
+
+
+                                      // Menampilkan status dengan ikon
+                                      echo $attendanceStatus[$currentStatus]['icon'] . " " . $attendanceStatus[$currentStatus]['label'];
+                                      ?>
+
+                                    </div>
+
+                                    <div class="saic-comment-text">
+                                      <p>
+                                        <?php echo htmlspecialchars($row['messages']); ?>
+                                      </p>
+                                    </div>
+
+                                    <!-- <div class="saic-comment-time">13 jam, 30 menit yang lalu
+                                    </div> -->
+                                    <div class="saic-comment-time">
+                                      <?php echo htmlspecialchars($row['created_at']); ?>
+                                    </div>
+
+
+                                  </div>
+
+                                </div>
+                              </li>
+                        <?php
+                            }
+                          } else {
+                            echo "<p>Tidak ada data yang ditemukan.</p>";
+                          }
+                        }
+                        $conn->close();
+                        ?>
                       </ul>
 
                       <div class="saic-holder-18745 saic-holder"></div>
@@ -2597,6 +2555,10 @@
       </div>
     </section>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="ajax/script.js"></script>
+
   <script type='text/javascript'>
     const lazyloadRunObserver = () => {
       const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
@@ -2639,6 +2601,7 @@
       "textNavPrev": "Sebelumnya"
     };
   </script>
+  <!-- <script src="ajax/saic_script.js?ver=1.13.2" id="saic_js_script-js"></script> -->
   <script src="https://zeyainvitation.com/wp-content/plugins/weddingsaas-pro/assets/plugins/custom/commentpress/saic_script.js?ver=1.13.2" id="saic_js_script-js"></script>
   <script src="https://zeyainvitation.com/wp-content/plugins/weddingsaas-pro/assets/plugins/custom/commentpress/saic_lib.js" id="saic_library-js"></script>
   <script src="https://zeyainvitation.com/wp-content/plugins/weddingpress/assets/js/wdp-swiper.min.js" id="wdp-swiper-js-js"></script>
