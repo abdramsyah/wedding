@@ -24,11 +24,12 @@
 
         // Periksa koneksi
         if ($conn->connect_error) {
+            echo "KONEKSI FAILED " . $conn->error;
+            exit();
             die("Koneksi gagal: " . $conn->connect_error);
         }
         echo "KONEKSI SUCCESS " . $conn->error;
-
-
+        exit();
 
         // Query untuk mengambil data dari tabel user
         $query = "SELECT * FROM user";
@@ -48,38 +49,7 @@
                     echo "TEST " . $row['id'];
                     // exit();
         ?>
-                    <li id="saic-item-comment-<?php echo $row['id']; ?>"
-                        class="comment even thread-even depth-1 saic-item-comment">
 
-                        <div id="saic-comment-<?php echo $row['id']; ?>" class="saic-comment saic-clearfix">
-
-                            <div class="saic-comment-avatar">
-                                <img src="https://ui-avatars.com/api/?background=random&color=random&name=<?php echo urlencode($row['nama_user']); ?>"
-                                    class="avatar avatar-28 photo" height="28" width="28" />
-                            </div>
-
-                            <div class="saic-comment-content">
-
-                                <div class="saic-comment-info">
-                                    <span class="saic-commenter-name"
-                                        title="<?php echo htmlspecialchars($row['nama_user']); ?>">
-                                        <?php echo htmlspecialchars($row['nama_user']); ?>
-                                    </span>
-                                </div>
-
-                                <div class="saic-comment-text">
-                                    <p>
-                                        <?php echo htmlspecialchars($row['messages']); ?>
-                                    </p>
-                                </div>
-
-                                <div class="saic-comment-time">
-                                    <?php echo htmlspecialchars($row['created_at']); ?>
-                                </div>
-                            </div>
-
-                        </div>
-                    </li>
         <?php
                 }
             } else {
