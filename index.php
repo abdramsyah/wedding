@@ -1,5 +1,6 @@
 <?php
 // Konfigurasi database
+// $servername = "localhost";
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -1529,9 +1530,12 @@ if ($conn->connect_error) {
                       <a class="elementor-button elementor-button-link elementor-size-sm" href="https://maps.app.goo.gl/J24v2WKaDuvxFXdF8" target="_blank" rel="nofollow">
                         <span class="elementor-button-content-wrapper">
                           <span class="elementor-button-icon">
-                            <i aria-hidden="true" class="fas fa-map-marked-alt"></i> </span>
-                          <span class="elementor-button-text">View location</span>
-                        </span>
+                            <!--<i aria-hidden="true" class="fa fa-map-marked"></i> </span>-->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                              <path d="M288 0c-69.6 0-126 56.4-126 126 0 56.3 82.4 158.8 113.9 196 6.4 7.5 17.8 7.5 24.2 0C331.7 284.8 414 182.3 414 126 414 56.4 357.6 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.1 216A32 32 0 0 0 0 245.7v250.3c0 11.3 11.4 19.1 21.9 14.9L160 448V214.9c-8.8-16-16.1-31.5-21.3-46.4L20.1 216zM288 359.7c-14.1 0-27.4-6.2-36.5-17-19.7-23.2-40.6-49.6-59.5-76.7v182l192 64V266c-18.9 27.1-39.8 53.5-59.5 76.7-9.1 10.8-22.4 17-36.5 17zm266.1-198.5L416 224v288l139.9-56A32 32 0 0 0 576 426.3V176c0-11.3-11.4-19.1-21.9-14.9z" />
+                            </svg>
+                            <span class="elementor-button-text">View location</span>
+                          </span>
                       </a>
                     </div>
                   </div>
@@ -1601,9 +1605,12 @@ if ($conn->connect_error) {
                       <a class="elementor-button elementor-button-link elementor-size-sm" href="https://maps.app.goo.gl/J24v2WKaDuvxFXdF8" target="_blank" rel="nofollow">
                         <span class="elementor-button-content-wrapper">
                           <span class="elementor-button-icon">
-                            <i aria-hidden="true" class="fas fa-map-marked-alt"></i> </span>
-                          <span class="elementor-button-text">View location</span>
-                        </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                              <path d="M288 0c-69.6 0-126 56.4-126 126 0 56.3 82.4 158.8 113.9 196 6.4 7.5 17.8 7.5 24.2 0C331.7 284.8 414 182.3 414 126 414 56.4 357.6 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.1 216A32 32 0 0 0 0 245.7v250.3c0 11.3 11.4 19.1 21.9 14.9L160 448V214.9c-8.8-16-16.1-31.5-21.3-46.4L20.1 216zM288 359.7c-14.1 0-27.4-6.2-36.5-17-19.7-23.2-40.6-49.6-59.5-76.7v182l192 64V266c-18.9 27.1-39.8 53.5-59.5 76.7-9.1 10.8-22.4 17-36.5 17zm266.1-198.5L416 224v288l139.9-56A32 32 0 0 0 576 426.3V176c0-11.3-11.4-19.1-21.9-14.9z" />
+                            </svg>
+                            <!--<i aria-hidden="true" class="fas fa-map-marked-alt"></i> </span>-->
+                            <span class="elementor-button-text">View location</span>
+                          </span>
                       </a>
                     </div>
                   </div>
@@ -1629,7 +1636,7 @@ if ($conn->connect_error) {
                   <div class="elementor-divider">
                     <span class="elementor-divider-separator">
                       <div class="elementor-icon elementor-divider__element">
-                        <i aria-hidden="true" class="fas fa-leaf"></i>
+                        <i aria-hidden="true" class="fa fa-leaf"></i>
                       </div>
                     </span>
                   </div>
@@ -1666,7 +1673,8 @@ if ($conn->connect_error) {
                   <div class="elementor-divider">
                     <span class="elementor-divider-separator">
                       <div class="elementor-icon elementor-divider__element">
-                        <i aria-hidden="true" class="fas fa-leaf"></i>
+                        <!--<i aria-hidden="true" class="fa fa-leaf"></i>-->
+                        <i aria-hidden="true" class="fa fa-heart"></i>
                       </div>
                     </span>
                   </div>
@@ -1694,9 +1702,8 @@ if ($conn->connect_error) {
             <div class="timeline-card">
               <h3 class="timeline-card-title">Awal Bertemu</h3>
               <p class="timeline-card-date">20 Maret 2020</p>
-              <p class="timeline-card-description">Pertama kali bertemu di salah satu ormawa dan berteman baik.
-                lalu lanjut berkomunikasi membahas terkait tugas akhir kampus dan semakin intens.
-                Namun seiring berjalannya Waktu kita resmi menjalani komitmen satu sama lain untuk ke jenjang yang lebih serius di 03 Oktober 2021.
+              <p class="timeline-card-description">
+                Pertama kali bertemu di salah satu ormawa dan berteman baik. Lalu komunikasi berlanjut membahas terkait tugas akhir kampus dan semakin intens. Seiring berjalannya waktu, kami resmi menjalani komitmen satu sama lain untuk ke jenjang yang lebih serius pada Oktober 2021.
               </p>
             </div>
           </div>
@@ -1983,7 +1990,9 @@ if ($conn->connect_error) {
 
                       <div class="elementor-button-content-wrapper">
                         <span class="elementor-button-icon elementor-align-icon-left">
-                          <i aria-hidden="true" class="far fa-copy"></i> </span>
+                          <i aria-hidden="true" class="fa fa-copy"></i>
+
+                        </span>
                         <span class="elementor-button-text">Salin Rekening</span>
                       </div>
                     </a>
@@ -2048,7 +2057,7 @@ if ($conn->connect_error) {
 
                       <div class="elementor-button-content-wrapper">
                         <span class="elementor-button-icon elementor-align-icon-left">
-                          <i aria-hidden="true" class="far fa-copy"></i> </span>
+                          <i aria-hidden="true" class="fa fa-copy"></i> </span>
                         <span class="elementor-button-text">Salin Rekening</span>
                       </div>
                     </a>
